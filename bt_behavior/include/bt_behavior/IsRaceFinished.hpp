@@ -12,52 +12,45 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef BT_BEHAVIOR__MOVE_HPP_
-#define BT_BEHAVIOR__MOVE_HPP_
+#ifndef BT_BEHAVIOR__ISRACEFINISHED_HPP_
+#define BT_BEHAVIOR__ISRACEFINISHED_HPP_
+
 
 #include <string>
 
-#include "geometry_msgs/msg/pose_stamped.hpp"
-#include "nav2_msgs/action/navigate_to_pose.hpp"
-
-#include "bt_behavior/ctrl_support/BTActionNode.hpp"
 #include "behaviortree_cpp_v3/behavior_tree.h"
 #include "behaviortree_cpp_v3/bt_factory.h"
+
+#include "geometry_msgs/msg/twist.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
+#include <vector>
+
+
+
+#include "rclcpp/rclcpp.hpp"
 
 namespace bt_behavior
 {
 
-  enum sounds {
-    ON            = 0,
-    OFF           = 1,
-    RECHARGE      = 2,
-    BUTTON        = 3,
-    ERROR         = 4,
-    CLEANINGSTART = 5,
-    CLEANINGEND   = 6
-  };
-
-class Move : public bt_behavior::BtActionNode<nav2_msgs::action::NavigateToPose>
+class IsRaceFinished : public BT::ActionNodeBase
 {
 public:
-  explicit Move(
+  explicit IsRaceFinished(
     const std::string & xml_tag_name,
-    const std::string & action_name,
     const BT::NodeConfiguration & conf);
 
-  void on_tick() override;
-  BT::NodeStatus on_success() override;
-  BT::NodeStatus on_aborted() override;
-  BT::NodeStatus on_cancelled() override;
+  void halt();
+  BT::NodeStatus tick();
 
   static BT::PortsList providedPorts()
   {
-    return {
-      BT::InputPort<geometry_msgs::msg::PoseStamped>("goal")
-    };
+    return {};
   }
+
+private:
+  rclcpp::Node::SharedPtr node_;
 };
 
 }  // namespace bt_behavior
 
-#endif  // BT_BEHAVIOR__MOVE_HPP_
+#endif  // BT_BEHAVIOR__ISRACEFINISHED_HPP_
