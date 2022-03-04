@@ -19,7 +19,7 @@
 
 #include "bt_behavior/Move.hpp"
 
-//#include "kobuki_ros_interfaces/msg/sound.hpp"
+#include "kobuki_ros_interfaces/msg/sound.hpp"
 
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "nav2_msgs/action/navigate_to_pose.hpp"
@@ -51,13 +51,13 @@ Move::on_success()
 {
   RCLCPP_INFO(node_->get_logger(), "navigation Suceeded");
 
-  //auto success_node = rclcpp::Node::make_shared("success_sound_node");
-  //auto success_pub = success_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
+  auto success_node = rclcpp::Node::make_shared("success_sound_node");
+  auto success_pub = success_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
 
-  //kobuki_ros_interfaces::msg::Sound beep;
-  //beep.value = ON;
+  kobuki_ros_interfaces::msg::Sound beep;
+  beep.value = ON;
 
-  //success_pub->publish(beep);
+  success_pub->publish(beep);
 
   return BT::NodeStatus::SUCCESS;
 }
@@ -67,13 +67,13 @@ Move::on_aborted()
 {
   RCLCPP_INFO(node_->get_logger(), "couldnt reach target");
 
-  //auto fail_node = rclcpp::Node::make_shared("failure_sound_node");
-  //auto fail_pub = fail_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
+  auto fail_node = rclcpp::Node::make_shared("failure_sound_node");
+  auto fail_pub = fail_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
  
-  //kobuki_ros_interfaces::msg::Sound beep;
-  //beep.value = OFF;
+  kobuki_ros_interfaces::msg::Sound beep;
+  beep.value = OFF;
 
-  //fail_pub->publish(beep);
+  fail_pub->publish(beep);
 
   return BT::NodeStatus::FAILURE;
 }
@@ -83,13 +83,13 @@ Move::on_cancelled()
 {
   RCLCPP_INFO(node_->get_logger(), "navigation cancelled");
 
-  /*auto cancel_node = rclcpp::Node::make_shared("failure_sound_node");
+  auto cancel_node = rclcpp::Node::make_shared("failure_sound_node");
   auto cancel_pub = cancel_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
  
   kobuki_ros_interfaces::msg::Sound beep;
   beep.value = CLEANINGEND;
 
-  cancel_pub->publish(beep);*/
+  cancel_pub->publish(beep);
 
   return BT::NodeStatus::SUCCESS;
 }

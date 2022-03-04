@@ -1,8 +1,8 @@
 nav_wp:
   ros__parameters:
-    waypoints: ["wp8", "wp3", "wp7", "wp6", "wp1", wp3", "wp4", "wp5", "wp2"]
+    waypoints: ["wp1", "wp5", "wp4", "wp6", "wp8", wp3", "wp7", "wp0", "wp2"]
     wp0: [0.0, 3.0]
-    wp1: [1.0, 1.0]
+    wp1: [0.8, 0.8]
     wp8: [-2.78, 3.38]
     wp3: [-1.0, -1.0]
     wp2: [-1.46, 1.06]
