@@ -22,6 +22,10 @@
 #include "geometry_msgs/msg/twist.hpp"
 
 #include "rclcpp/rclcpp.hpp"
+#include "nav_msgs/msg/occupancy_grid.hpp"
+#include "/opt/ros/foxy/include/nav2_costmap_2d/costmap_2d.hpp"
+#include "std_msgs/msg/string.hpp"
+#include <memory>
 
 namespace bt_behavior
 {
@@ -34,6 +38,15 @@ GetNextWaypoint::GetNextWaypoint(
 : BT::ActionNodeBase(xml_tag_name, conf)
 {
   config().blackboard->get("node", node_);
+  map_ocuppancy_sub_ = node_->create_subscription<nav_msgs::msg::OccupancyGrid>(
+    "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, std::placeholders::_1);
+  )
+}
+
+void
+GetNextWaypoint::map_cb(const nav::msgs::msg::OccupancyGrid::SharedPtr msg)
+{
+  return;
 }
 
 void
