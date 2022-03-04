@@ -29,6 +29,7 @@
 #include "/opt/ros/foxy/include/nav2_costmap_2d/costmap_2d.hpp"
 
 
+
 namespace bt_behavior
 {
 
@@ -54,6 +55,8 @@ private:
   rclcpp::Node::SharedPtr node_;
   rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr map_ocuppancy_sub_;
   void map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
+  void Costmap2D(const nav_msgs::msg::OccupancyGrid & map);
+
   
 };
 
