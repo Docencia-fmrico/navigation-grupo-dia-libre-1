@@ -31,10 +31,17 @@
 #include "nav_msgs/msg/occupancy_grid.hpp"
 
 
+//som constants usefull for the costmap function
 static constexpr unsigned char NO_INFORMATION = 255;
 static constexpr unsigned char LETHAL_OBSTACLE = 254;
 static constexpr unsigned char INSCRIBED_INFLATED_OBSTACLE = 253;
 static constexpr unsigned char FREE_SPACE = 0;
+
+//nav2_util constants
+static constexpr int8_t OCC_GRID_UNKNOWN = -1;
+static constexpr int8_t OCC_GRID_FREE = 0;
+static constexpr int8_t OCC_GRID_OCCUPIED = 100;
+
 
 
 namespace bt_behavior
@@ -63,9 +70,8 @@ GetNextWaypoint::map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
 }
 void
 GetNextWaypoint::Costmap2D(const nav_msgs::msg::OccupancyGrid & map)
-: default_value_(FREE_SPACE)
+//: default_value_(FREE_SPACE)
 {
-  access_ = new mutex_t();
 
   // fill local variables
   unsigned int size_x_ = map.info.width;
@@ -81,14 +87,14 @@ GetNextWaypoint::Costmap2D(const nav_msgs::msg::OccupancyGrid & map)
   int8_t data;
   for (unsigned int it = 0; it < size_x_ * size_y_; it++) {
     data = map.data[it];
-    if (data == nav2_util::OCC_GRID_UNKNOWN) {
+    if (data == OCC_GRID_UNKNOWN) {
       costmap_[it] = NO_INFORMATION;
     } else {
       // Linear conversion from OccupancyGrid data range [OCC_GRID_FREE..OCC_GRID_OCCUPIED]
       // to costmap data range [FREE_SPACE..LETHAL_OBSTACLE]
       costmap_[it] = std::round(
-        static_cast<double>(data) * (Costmap2D::LETHAL_OBSTACLE - FREE_SPACE) /
-        (nav2_util::OCC_GRID_OCCUPIED - nav2_util::OCC_GRID_FREE));
+        static_cast<double>(data) * (LETHAL_OBSTACLE - FREE_SPACE) /
+        (OCC_GRID_OCCUPIED - OCC_GRID_FREE));
     }
   }
 }
