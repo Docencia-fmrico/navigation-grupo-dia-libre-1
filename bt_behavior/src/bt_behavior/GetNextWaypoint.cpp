@@ -25,21 +25,24 @@
 #include "nav_msgs/msg/occupancy_grid.hpp"
 #include "/opt/ros/foxy/include/nav2_costmap_2d/costmap_2d.hpp"
 #include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+#include <memory> 
 
 namespace bt_behavior
 {
 
-using namespace std::chrono_literals;
 using std::placeholders::_1;
+using namespace std::chrono_literals;
 
 GetNextWaypoint::GetNextWaypoint(
   const std::string & xml_tag_name,
   const BT::NodeConfiguration & conf)
 : BT::ActionNodeBase(xml_tag_name, conf)
 {
+
   //we create a subscriber to the map topic
-  map_ocuppancy_sub_ = rclcpp::create_subscription<nav_msgs::msg::OccupancyGrid>(
-    "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, _1));
+  map_ocuppancy_sub_ = node_->create_subscription<nav_msgs::msg::OccupancyGrid>(
+    "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, std::placeholders::_1));
 
   config().blackboard->get("node", node_);
 }
@@ -59,7 +62,7 @@ GetNextWaypoint::halt()
 
 BT::NodeStatus
 GetNextWaypoint::tick()
-{
+{    
   int ind;
   config().blackboard->get("index", ind);
 

@@ -17,7 +17,6 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(ament_index_cpp REQUIRED)
-#find_package(kobuki_ros_interfaces REQUIRED)
 
 find_package(ZMQ)
 if(ZMQ_FOUND)
@@ -39,7 +38,6 @@ set(dependencies
     geometry_msgs
     nav2_msgs
     nav_msgs
-    #kobuki_ros_interfaces
     ament_index_cpp
 )
 

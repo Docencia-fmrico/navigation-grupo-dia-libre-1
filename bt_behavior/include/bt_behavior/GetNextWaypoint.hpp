@@ -35,11 +35,12 @@ namespace bt_behavior
 class GetNextWaypoint : public BT::ActionNodeBase
 {
 public:
+
   explicit GetNextWaypoint(
     const std::string & xml_tag_name,
     const BT::NodeConfiguration & conf);
 
-  void halt();
+  void halt();    
   BT::NodeStatus tick();
 
   static BT::PortsList providedPorts()
@@ -49,11 +50,11 @@ public:
     };
   }
 
-  void map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
-
 private:
   rclcpp::Node::SharedPtr node_;
   rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr map_ocuppancy_sub_;
+  void map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
+  
 };
 
 }  // namespace bt_behavior
