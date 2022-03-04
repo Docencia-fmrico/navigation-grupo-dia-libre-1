@@ -39,12 +39,11 @@ GetNextWaypoint::GetNextWaypoint(
 {
   config().blackboard->get("node", node_);
   map_ocuppancy_sub_ = node_->create_subscription<nav_msgs::msg::OccupancyGrid>(
-    "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, std::placeholders::_1);
-  )
+    "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, std::placeholders::_1));
 }
 
 void
-GetNextWaypoint::map_cb(const nav::msgs::msg::OccupancyGrid::SharedPtr msg)
+GetNextWaypoint::map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
 {
   return;
 }
