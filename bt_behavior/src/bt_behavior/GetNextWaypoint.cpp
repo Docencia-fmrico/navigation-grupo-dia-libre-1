@@ -29,6 +29,8 @@
 #include <memory> 
 #include "nav2_costmap_2d/cost_values.hpp"
 #include "nav_msgs/msg/occupancy_grid.hpp"
+#include "std_msgs/msg/string.hpp"
+#include <memory>
 
 
 //som constants usefull for the costmap function
@@ -43,11 +45,11 @@ static constexpr int8_t OCC_GRID_FREE = 0;
 static constexpr int8_t OCC_GRID_OCCUPIED = 100;
 
 
-
 namespace bt_behavior
 {
 
 using std::placeholders::_1;
+
 using namespace std::chrono_literals;
 
 GetNextWaypoint::GetNextWaypoint(
@@ -60,13 +62,16 @@ GetNextWaypoint::GetNextWaypoint(
   map_ocuppancy_sub_ = node_->create_subscription<nav_msgs::msg::OccupancyGrid>(
     "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, std::placeholders::_1));
 
+
   config().blackboard->get("node", node_);
+  map_ocuppancy_sub_ = node_->create_subscription<nav_msgs::msg::OccupancyGrid>(
+    "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, std::placeholders::_1));
 }
 
 void
 GetNextWaypoint::map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
 {
-
+  return;
 }
 void
 GetNextWaypoint::Costmap2D(const nav_msgs::msg::OccupancyGrid & map)
@@ -99,6 +104,7 @@ GetNextWaypoint::Costmap2D(const nav_msgs::msg::OccupancyGrid & map)
   }
 }
 
+
 void
 GetNextWaypoint::halt()
 {
@@ -120,6 +126,7 @@ GetNextWaypoint::tick()
   publishable_wp.pose.position.x = waypoint[0];
   publishable_wp.pose.position.y = waypoint[1];
 
+  std::cerr << "Next waypoint on index " << ind << " is [" << waypoint[0] << "," << waypoint[1] << "]" << std::endl;
   ind++;
   config().blackboard->set("index", ind);
   setOutput("waypoint", publishable_wp);
