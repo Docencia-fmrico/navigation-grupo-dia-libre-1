@@ -1,8 +1,0 @@
-[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kkobuki_ros_interfaces/msg/sound.hpp: No existe el archivo o el directorio
-   22 | #include [01;31m[K"kobuki_ros_interfaces/msg/sound.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/bt_behavior/Move.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/br2_move_bt_node.dir/all] Error 2
-make[1]: *** Se espera a que terminen otras tareas....
-make: *** [Makefile:141: all] Error 2
