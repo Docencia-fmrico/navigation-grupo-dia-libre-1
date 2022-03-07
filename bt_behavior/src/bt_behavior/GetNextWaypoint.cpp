@@ -14,32 +14,27 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
+#include <memory>
 
 #include "bt_behavior/GetNextWaypoint.hpp"
 
 #include "behaviortree_cpp_v3/behavior_tree.h"
 
 #include "geometry_msgs/msg/twist.hpp"
-
 #include "rclcpp/rclcpp.hpp"
 #include "nav_msgs/msg/occupancy_grid.hpp"
 #include "/opt/ros/foxy/include/nav2_costmap_2d/costmap_2d.hpp"
-#include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
-#include <memory> 
 #include "nav2_costmap_2d/cost_values.hpp"
-#include "nav_msgs/msg/occupancy_grid.hpp"
-#include "std_msgs/msg/string.hpp"
-#include <memory>
 
-
-//som constants usefull for the costmap function
+// som constants usefull for the costmap function
 static constexpr unsigned char NO_INFORMATION = 255;
 static constexpr unsigned char LETHAL_OBSTACLE = 254;
 static constexpr unsigned char INSCRIBED_INFLATED_OBSTACLE = 253;
 static constexpr unsigned char FREE_SPACE = 0;
 
-//nav2_util constants
+// nav2_util constants
 static constexpr int8_t OCC_GRID_UNKNOWN = -1;
 static constexpr int8_t OCC_GRID_FREE = 0;
 static constexpr int8_t OCC_GRID_OCCUPIED = 100;
@@ -57,8 +52,7 @@ GetNextWaypoint::GetNextWaypoint(
   const BT::NodeConfiguration & conf)
 : BT::ActionNodeBase(xml_tag_name, conf)
 {
-
-  //we create a subscriber to the map topic
+  // we create a subscriber to the map topic
   map_ocuppancy_sub_ = node_->create_subscription<nav_msgs::msg::OccupancyGrid>(
     "/map_occupancy", 10, std::bind(&GetNextWaypoint::map_cb, this, std::placeholders::_1));
 
@@ -70,14 +64,11 @@ GetNextWaypoint::GetNextWaypoint(
 
 void
 GetNextWaypoint::map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
-{
-  return;
-}
+{}
 void
 GetNextWaypoint::Costmap2D(const nav_msgs::msg::OccupancyGrid & map)
 //: default_value_(FREE_SPACE)
 {
-
   // fill local variables
   unsigned int size_x_ = map.info.width;
   unsigned int size_y_ = map.info.height;
@@ -86,8 +77,8 @@ GetNextWaypoint::Costmap2D(const nav_msgs::msg::OccupancyGrid & map)
   double origin_y_ = map.info.origin.position.y;
 
   // create the costmap
-  unsigned char *costmap_ = new unsigned char[size_x_ * size_y_];
 
+  unsigned char * costmap_ = new unsigned char[size_x_ * size_y_];
   // fill the costmap with a data
   int8_t data;
   for (unsigned int it = 0; it < size_x_ * size_y_; it++) {
@@ -113,7 +104,7 @@ GetNextWaypoint::halt()
 
 BT::NodeStatus
 GetNextWaypoint::tick()
-{    
+{
   int ind;
   config().blackboard->get("index", ind);
 
@@ -126,11 +117,13 @@ GetNextWaypoint::tick()
   publishable_wp.pose.position.x = waypoint[0];
   publishable_wp.pose.position.y = waypoint[1];
 
-  std::cerr << "Next waypoint on index " << ind << " is [" << waypoint[0] << "," << waypoint[1] << "]" << std::endl;
+  std::cerr << "Next waypoint on index " << ind << " is [" << waypoint[0] << "," << waypoint[1] <<
+    "]" << std::endl;
   ind++;
+
   config().blackboard->set("index", ind);
   setOutput("waypoint", publishable_wp);
-  
+
   return BT::NodeStatus::SUCCESS;
 }
 

@@ -14,6 +14,7 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
 
 #include "bt_behavior/IsRaceFinished.hpp"
 
@@ -45,7 +46,6 @@ IsRaceFinished::halt()
 BT::NodeStatus
 IsRaceFinished::tick()
 {
-
   int ind;
   config().blackboard->get("index", ind);
 

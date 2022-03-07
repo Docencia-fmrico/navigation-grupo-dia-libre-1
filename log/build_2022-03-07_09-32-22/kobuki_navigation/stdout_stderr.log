@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/kobuki_navigation.launch.py
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/navigation_launch.py
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/kobuki_nav_params.yaml
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/mapper_params_online_async.yaml
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.pgm
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.yaml
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.pgm
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.yaml
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.pgm
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.yaml
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/package_run_dependencies/kobuki_navigation
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/parent_prefix_path/kobuki_navigation
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.sh
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.dsv
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.bash
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.sh
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.zsh
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.dsv
+-- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.dsv
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/packages/kobuki_navigation
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig.cmake
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig-version.cmake
+-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.xml

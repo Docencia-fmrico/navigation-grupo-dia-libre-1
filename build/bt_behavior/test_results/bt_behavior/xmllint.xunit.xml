@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="bt_behavior.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.254"
+>
+  <testcase
+    name="package.xml"
+    classname="bt_behavior.xmllint"/>
+  <testcase
+    name="behavior_tree_xml/behavior.xml"
+    classname="bt_behavior.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* behavior_tree_xml/behavior.xml</system-out>
+</testsuite>

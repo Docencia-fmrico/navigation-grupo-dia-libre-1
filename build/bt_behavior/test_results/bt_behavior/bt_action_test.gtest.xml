@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="1" disabled="0" errors="0" timestamp="2022-03-07T10:53:10" time="6.335" name="AllTests">
+  <testsuite name="bt_action" tests="2" failures="1" disabled="0" errors="0" time="6.335">
+    <testcase name="patrol_btn" status="run" time="0.018" classname="bt_behavior.bt_action">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;Could not load library: libbr2_patrol_bt_node.so: cannot open shared object file: No such file or directory&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "Could not load library: libbr2_patrol_bt_node.so: cannot open shared object file: No such file or directory" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="move_btn" status="run" time="6.317" classname="bt_behavior.bt_action" />
+  </testsuite>
+</testsuites>

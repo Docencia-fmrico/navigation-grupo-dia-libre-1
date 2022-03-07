@@ -1,0 +1,61 @@
+[0.101s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior
+[1.443s] -- The C compiler identification is GNU 9.3.0
+[2.337s] -- The CXX compiler identification is GNU 9.3.0
+[2.451s] -- Check for working C compiler: /usr/bin/cc
+[2.689s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.691s] -- Detecting C compiler ABI info
+[2.862s] -- Detecting C compiler ABI info - done
+[2.894s] -- Detecting C compile features
+[2.914s] -- Detecting C compile features - done
+[2.927s] -- Check for working CXX compiler: /usr/bin/c++
+[3.125s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.128s] -- Detecting CXX compiler ABI info
+[3.319s] -- Detecting CXX compiler ABI info - done
+[3.341s] -- Detecting CXX compile features
+[3.342s] -- Detecting CXX compile features - done
+[3.557s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.650s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.651s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.105s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.507s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.241s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.044s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.124s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.922s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.984s] -- Looking for pthread.h
+[7.382s] -- Looking for pthread.h - found
+[7.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.617s] -- Looking for pthread_create in pthreads
+[7.819s] -- Looking for pthread_create in pthreads - not found
+[7.820s] -- Looking for pthread_create in pthread
+[8.006s] -- Looking for pthread_create in pthread - found
+[8.010s] -- Found Threads: TRUE  
+[8.541s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[8.668s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[8.990s] -- Found behaviortree_cpp_v3: 3.6.0 (/opt/ros/foxy/share/behaviortree_cpp_v3/cmake)
+[9.048s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.126s] CMake Error at CMakeLists.txt:17 (find_package):
+[9.127s]   By not providing "Findkobuki_ros_interfaces.cmake" in CMAKE_MODULE_PATH
+[9.127s]   this project has asked CMake to find a package configuration file provided
+[9.128s]   by "kobuki_ros_interfaces", but CMake did not find one.
+[9.128s] 
+[9.128s]   Could not find a package configuration file provided by
+[9.129s]   "kobuki_ros_interfaces" with any of the following names:
+[9.129s] 
+[9.129s]     kobuki_ros_interfacesConfig.cmake
+[9.130s]     kobuki_ros_interfaces-config.cmake
+[9.130s] 
+[9.131s]   Add the installation prefix of "kobuki_ros_interfaces" to CMAKE_PREFIX_PATH
+[9.131s]   or set "kobuki_ros_interfaces_DIR" to a directory containing one of the
+[9.131s]   above files.  If "kobuki_ros_interfaces" provides a separate development
+[9.132s]   package or SDK, be sure it has been installed.
+[9.132s] 
+[9.132s] 
+[9.133s] -- Configuring incomplete, errors occurred!
+[9.133s] See also "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CMakeFiles/CMakeOutput.log".
+[9.133s] See also "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CMakeFiles/CMakeError.log".
+[9.148s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior

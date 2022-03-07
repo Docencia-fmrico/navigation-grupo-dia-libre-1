@@ -1,0 +1,25 @@
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus bt_behavior::Move::on_success()[m[K’:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Ksuccess_node[m[K’?
+   60 |   [01;31m[Ksuccess_pub[m[K->publish(beep);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+      |   [32m[Ksuccess_node[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:60:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeep[m[K’ was not declared in this scope
+   60 |   success_pub->publish([01;31m[Kbeep[m[K);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus bt_behavior::Move::on_aborted()[m[K’:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:76:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfail_pub[m[K’ was not declared in this scope
+   76 |   [01;31m[Kfail_pub[m[K->publish(beep);
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:76:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeep[m[K’ was not declared in this scope
+   76 |   fail_pub->publish([01;31m[Kbeep[m[K);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus bt_behavior::Move::on_cancelled()[m[K’:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:92:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_pub[m[K’ was not declared in this scope
+   92 |   [01;31m[Kcancel_pub[m[K->publish(beep);
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:92:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeep[m[K’ was not declared in this scope
+   92 |   cancel_pub->publish([01;31m[Kbeep[m[K);
+      |                       [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/bt_behavior/Move.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/br2_move_bt_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

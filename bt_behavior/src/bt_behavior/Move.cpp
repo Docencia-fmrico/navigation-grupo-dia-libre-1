@@ -52,7 +52,8 @@ Move::on_success()
   RCLCPP_INFO(node_->get_logger(), "navigation Suceeded");
 
   auto success_node = rclcpp::Node::make_shared("success_sound_node");
-  auto success_pub = success_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
+  auto success_pub =
+    success_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
 
   kobuki_ros_interfaces::msg::Sound beep;
   beep.value = ON;
@@ -68,8 +69,9 @@ Move::on_aborted()
   RCLCPP_INFO(node_->get_logger(), "couldnt reach target");
 
   auto fail_node = rclcpp::Node::make_shared("failure_sound_node");
-  auto fail_pub = fail_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
- 
+  auto fail_pub =
+    fail_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
+
   kobuki_ros_interfaces::msg::Sound beep;
   beep.value = OFF;
 
@@ -84,8 +86,9 @@ Move::on_cancelled()
   RCLCPP_INFO(node_->get_logger(), "navigation cancelled");
 
   auto cancel_node = rclcpp::Node::make_shared("failure_sound_node");
-  auto cancel_pub = cancel_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
- 
+  auto cancel_pub =
+    cancel_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10);
+
   kobuki_ros_interfaces::msg::Sound beep;
   beep.value = CLEANINGEND;
 

@@ -1,0 +1,54 @@
+[0.107s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/kobuki_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation
+[1.368s] -- The C compiler identification is GNU 9.3.0
+[2.262s] -- The CXX compiler identification is GNU 9.3.0
+[2.377s] -- Check for working C compiler: /usr/bin/cc
+[2.615s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.618s] -- Detecting C compiler ABI info
+[2.789s] -- Detecting C compiler ABI info - done
+[2.820s] -- Detecting C compile features
+[2.840s] -- Detecting C compile features - done
+[2.854s] -- Check for working CXX compiler: /usr/bin/c++
+[3.057s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.060s] -- Detecting CXX compiler ABI info
+[3.241s] -- Detecting CXX compiler ABI info - done
+[3.263s] -- Detecting CXX compile features
+[3.263s] -- Detecting CXX compile features - done
+[3.371s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[3.577s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.577s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.032s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.704s] -- Configuring done
+[4.779s] -- Generating done
+[4.802s] -- Build files have been written to: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation
+[4.806s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/kobuki_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation
+[4.809s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation -- -j8 -l8
+[4.882s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation -- -j8 -l8
+[4.927s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation
+[4.938s] -- Install configuration: ""
+[4.941s] -- Execute custom install script
+[4.953s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/kobuki_navigation.launch.py
+[4.968s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/navigation_launch.py
+[4.987s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/kobuki_nav_params.yaml
+[5.002s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/mapper_params_online_async.yaml
+[5.019s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.pgm
+[5.033s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.yaml
+[5.046s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.pgm
+[5.060s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.yaml
+[5.076s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.pgm
+[5.091s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.yaml
+[5.113s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/package_run_dependencies/kobuki_navigation
+[5.132s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/parent_prefix_path/kobuki_navigation
+[5.154s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.sh
+[5.172s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.dsv
+[5.187s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.sh
+[5.206s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.dsv
+[5.222s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.bash
+[5.237s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.sh
+[5.250s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.zsh
+[5.266s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.dsv
+[5.281s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.dsv
+[5.303s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/packages/kobuki_navigation
+[5.324s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig.cmake
+[5.336s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig-version.cmake
+[5.349s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.xml
+[5.370s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation

@@ -1,0 +1,217 @@
+[0.169s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior': AMENT_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior LD_LIBRARY_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.177s] UpdateCTestConfiguration  from :/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.178s] Parse Config file:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.178s]    Site: f-l3210-pc24
+[0.179s]    Build name: (empty)
+[0.179s]  Add coverage exclude regular expressions.
+[0.180s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.180s] Create new tag: 20220307-0953 - Experimental
+[0.181s] UpdateCTestConfiguration  from :/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.181s] Parse Config file:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.182s] Test project /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior
+[0.182s] Constructing a list of tests
+[0.183s] Done constructing a list of tests
+[0.184s] Updating test list for fixtures
+[0.184s] Added 0 tests to meet fixture requirements
+[0.185s] Checking test dependency graph...
+[0.185s] Checking test dependency graph end
+[0.185s] test 1
+[0.186s]     Start 1: copyright
+[0.186s] 
+[0.186s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml"
+[0.187s] 1: Test timeout computed to be: 60
+[0.267s] 1: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[0.268s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml
+[0.749s] 1: No problems found, checked 12 files
+[0.767s] 1: -- run_test.py: return code 0
+[0.768s] 1: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml'
+[0.781s] 1/9 Test #1: copyright ........................   Passed    0.60 sec
+[0.790s] test 2
+[0.791s]     Start 2: cppcheck
+[0.791s] 
+[0.791s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml" "--include_dirs" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include"
+[0.792s] 2: Test timeout computed to be: 300
+[0.864s] 2: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[0.864s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml --include_dirs /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include
+[1.294s] 2: No problems found
+[1.314s] 2: -- run_test.py: return code 0
+[1.315s] 2: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml'
+[1.327s] 2/9 Test #2: cppcheck .........................   Passed    0.54 sec
+[1.330s] test 3
+[1.330s]     Start 3: cpplint
+[1.331s] 
+[1.331s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml"
+[1.332s] 3: Test timeout computed to be: 120
+[1.405s] 3: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[1.405s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml
+[2.205s] 3: Using '--root=..' argument
+[2.205s] 3: 
+[2.206s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/tests/bt_action_test.cpp
+[2.206s] 3: 
+[2.206s] 3: Using '--root=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include' argument
+[2.206s] 3: 
+[2.207s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/GetNextWaypoint.hpp
+[2.207s] 3: 
+[2.208s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/IsRaceFinished.hpp
+[2.208s] 3: 
+[2.208s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/Move.hpp
+[2.208s] 3: 
+[2.209s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTActionNode.hpp
+[2.209s] 3: 
+[2.209s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp
+[2.210s] 3: 
+[2.210s] 3: Using '--root=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src' argument
+[2.211s] 3: 
+[2.211s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp
+[2.211s] 3: 
+[2.212s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp
+[2.213s] 3: 
+[2.213s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/IsRaceFinished.cpp
+[2.213s] 3: 
+[2.214s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp
+[2.214s] 3: 
+[2.215s] 3: No problems found
+[2.220s] 3: -- run_test.py: return code 0
+[2.221s] 3: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml'
+[2.235s] 3/9 Test #3: cpplint ..........................   Passed    0.90 sec
+[2.238s] test 4
+[2.238s]     Start 4: flake8
+[2.238s] 
+[2.238s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml"
+[2.239s] 4: Test timeout computed to be: 60
+[2.310s] 4: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[2.311s] 4:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml
+[2.895s] 4: 
+[2.895s] 4: 1 files checked
+[2.895s] 4: No problems found
+[2.895s] 4: 
+[2.896s] 4: Checked files:
+[2.896s] 4: 
+[2.896s] 4: * ./launch/patrolling.launch.py
+[2.923s] 4: -- run_test.py: return code 0
+[2.924s] 4: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml'
+[2.935s] 4/9 Test #4: flake8 ...........................   Passed    0.70 sec
+[2.937s] test 5
+[2.938s]     Start 5: lint_cmake
+[2.938s] 
+[2.938s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml"
+[2.939s] 5: Test timeout computed to be: 60
+[3.008s] 5: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[3.008s] 5:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml
+[3.393s] 5: 
+[3.393s] 5: No problems found
+[3.405s] 5: -- run_test.py: return code 0
+[3.406s] 5: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml'
+[3.418s] 5/9 Test #5: lint_cmake .......................   Passed    0.48 sec
+[3.420s] test 6
+[3.420s]     Start 6: pep257
+[3.420s] 
+[3.421s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml"
+[3.421s] 6: Test timeout computed to be: 60
+[3.485s] 6: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[3.485s] 6:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml
+[3.906s] 6: checking ./launch/patrolling.launch.py
+[3.906s] 6: No problems found
+[3.923s] 6: -- run_test.py: return code 0
+[3.924s] 6: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml'
+[3.935s] 6/9 Test #6: pep257 ...........................   Passed    0.52 sec
+[3.938s] test 7
+[3.938s]     Start 7: uncrustify
+[3.939s] 
+[3.939s] 7: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml"
+[3.939s] 7: Test timeout computed to be: 60
+[4.008s] 7: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[4.009s] 7:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml
+[4.425s] 7: No code style divergence in file 'include/bt_behavior/GetNextWaypoint.hpp'
+[4.425s] 7: 
+[4.426s] 7: No code style divergence in file 'include/bt_behavior/IsRaceFinished.hpp'
+[4.426s] 7: 
+[4.426s] 7: No code style divergence in file 'include/bt_behavior/Move.hpp'
+[4.426s] 7: 
+[4.426s] 7: No code style divergence in file 'include/bt_behavior/ctrl_support/BTActionNode.hpp'
+[4.426s] 7: 
+[4.427s] 7: No code style divergence in file 'include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp'
+[4.427s] 7: 
+[4.427s] 7: No code style divergence in file 'src/bt_behavior/GetNextWaypoint.cpp'
+[4.427s] 7: 
+[4.428s] 7: No code style divergence in file 'src/bt_behavior/IsRaceFinished.cpp'
+[4.428s] 7: 
+[4.428s] 7: No code style divergence in file 'src/bt_behavior/Move.cpp'
+[4.429s] 7: 
+[4.429s] 7: No code style divergence in file 'src/nav_wp.cpp'
+[4.429s] 7: 
+[4.430s] 7: No code style divergence in file 'tests/bt_action_test.cpp'
+[4.430s] 7: 
+[4.431s] 7: No problems found
+[4.440s] 7: -- run_test.py: return code 0
+[4.442s] 7: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml'
+[4.453s] 7/9 Test #7: uncrustify .......................   Passed    0.52 sec
+[4.456s] test 8
+[4.456s]     Start 8: xmllint
+[4.457s] 
+[4.457s] 8: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml"
+[4.457s] 8: Test timeout computed to be: 60
+[4.526s] 8: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[4.526s] 8:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml
+[5.148s] 8: File 'package.xml' is valid
+[5.148s] 8: 
+[5.148s] 8: File 'behavior_tree_xml/behavior.xml' is valid
+[5.148s] 8: 
+[5.149s] 8: No problems found
+[5.163s] 8: -- run_test.py: return code 0
+[5.164s] 8: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml'
+[5.175s] 8/9 Test #8: xmllint ..........................   Passed    0.72 sec
+[5.177s] test 9
+[5.177s]     Start 9: bt_action_test
+[5.178s] 
+[5.178s] 9: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cmake_gtest/bt_action_test.txt" "--command" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests/bt_action_test" "--gtest_output=xml:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml"
+[5.178s] 9: Test timeout computed to be: 60
+[5.252s] 9: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests':
+[5.252s] 9:  - /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests/bt_action_test --gtest_output=xml:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml
+[5.270s] 9: [==========] Running 2 tests from 1 test case.
+[5.271s] 9: [----------] Global test environment set-up.
+[5.271s] 9: [----------] 2 tests from bt_action
+[5.271s] 9: [ RUN      ] bt_action.patrol_btn
+[5.288s] 9: unknown file: Failure
+[5.288s] 9: C++ exception with description "Could not load library: libbr2_patrol_bt_node.so: cannot open shared object file: No such file or directory" thrown in the test body.
+[5.288s] 9: [  FAILED  ] bt_action.patrol_btn (18 ms)
+[5.288s] 9: [ RUN      ] bt_action.move_btn
+[5.301s] 9: [INFO] [1646646790.116930450] [move_btn_node]: Waiting for "navigate_to_pose" action server
+[5.301s] 9: [INFO] [1646646790.117060586] [move_btn_node]: "move" BtActionNode initialized
+[5.302s] 9: [INFO] [1646646790.118400504] [move_btn_node]: Waiting for "navigate_to_pose" action server
+[11.501s] 9: [INFO] [1646646796.317281336] [move_btn_node]: navigation Suceeded
+[11.605s] 9: [       OK ] bt_action.move_btn (6317 ms)
+[11.606s] 9: [----------] 2 tests from bt_action (6335 ms total)
+[11.606s] 9: 
+[11.606s] 9: [----------] Global test environment tear-down
+[11.609s] 9: [==========] 2 tests from 1 test case ran. (6335 ms total)
+[11.609s] 9: [  PASSED  ] 1 test.
+[11.609s] 9: [  FAILED  ] 1 test, listed below:
+[11.609s] 9: [  FAILED  ] bt_action.patrol_btn
+[11.610s] 9: 
+[11.610s] 9:  1 FAILED TEST
+[11.612s] 9: -- run_test.py: return code 1
+[11.614s] 9: -- run_test.py: inject classname prefix into gtest result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml'
+[11.616s] 9: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml'
+[11.628s] 9/9 Test #9: bt_action_test ...................***Failed    6.45 sec
+[11.635s] 
+[11.635s] 89% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 9
+[11.635s] 
+[11.635s] Label Time Summary:
+[11.636s] copyright     =   0.60 sec*proc (1 test)
+[11.636s] cppcheck      =   0.54 sec*proc (1 test)
+[11.636s] cpplint       =   0.90 sec*proc (1 test)
+[11.637s] flake8        =   0.70 sec*proc (1 test)
+[11.637s] gtest         =   6.45 sec*proc (1 test)
+[11.638s] lint_cmake    =   0.48 sec*proc (1 test)
+[11.638s] linter        =   4.96 sec*proc (8 tests)
+[11.638s] pep257        =   0.52 sec*proc (1 test)
+[11.639s] uncrustify    =   0.52 sec*proc (1 test)
+[11.639s] xmllint       =   0.72 sec*proc (1 test)
+[11.639s] 
+[11.640s] Total Test time (real) =  11.45 sec
+[11.640s] 
+[11.641s] The following tests FAILED:
+[11.641s] 	[0;31m  9 - bt_action_test (Failed)[0;0m
+[11.675s] Errors while running CTest
+[11.677s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior' returned '8': AMENT_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior LD_LIBRARY_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
