@@ -46,15 +46,14 @@ Sequence:
   
 En cuando al bt_navigator hemos usado el navigate_w_replanning_and_recovery.xml.
 
-en cuanto a los controllers servers hicimos distintas pruebas para elegir con que controlador trabajariamos:
+Con respecto a los controllers servers hicimos distintas pruebas para elegir con que controlador trabajariamos:
 
-primero probamos la navegación con el controller default, el cual realizaba las rutas de forma correcta y no tardaba demasiado en pensar.
+Primero probamos la navegación con el controller default, el cual realizaba las rutas de forma correcta y no tardaba demasiado en pensar.
 
-a continuación hicimos varias pruebas con el controlador pursuit el cual parecía que navegaba de manera más rápida y fluida pero tenía un
+A continuación hicimos varias pruebas con el controlador pursuit el cual parecía que navegaba de manera más rápida y fluida pero tenía un
 inconveniente y es que en muchas situaciones el robot se quedaba mucho rato pensando (por ejemplo cuando alcanzaba un waypoint) esto generaba que a corto medio plazo, el algoritmo fuera más lento y menos eficiente. de esa manera concluimos que para la tarea que habrán que realizar en clase la cuál consiste en alcanzar varios waypoints seguidos, el controlador inicial es el mas adecuado.
 
-después de probar con el controlador pursuit quizimos también evaluar el comportamiento del controlador shim sin embargo como varios de nuestros compañeros no conseguimos hacer que este funcionara correctamente
+Después de probar con el controlador pursuit quizimos también evaluar el comportamiento del controlador shim sin embargo como varios de nuestros compañeros no conseguimos hacer que este funcionara correctamente
 
-con todo esto en cuenta decidimos que para la tarea encomendada el controlador que nos ofrecerá un mejor comportamiento era
- el inicial.
+Con todo esto en cuenta decidimos que para la tarea encomendada el controlador que nos ofrecerá un mejor comportamiento era el inicial.
 
