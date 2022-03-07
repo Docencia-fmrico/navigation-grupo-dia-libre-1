@@ -14,8 +14,9 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
 
-#include "bt_behavior/Patrol.hpp"
+#include "bt_behavior/IsRaceFinished.hpp"
 
 #include "behaviortree_cpp_v3/behavior_tree.h"
 
@@ -28,40 +29,35 @@ namespace bt_behavior
 
 using namespace std::chrono_literals;
 
-Patrol::Patrol(
+IsRaceFinished::IsRaceFinished(
   const std::string & xml_tag_name,
   const BT::NodeConfiguration & conf)
 : BT::ActionNodeBase(xml_tag_name, conf)
 {
   config().blackboard->get("node", node_);
-
-  vel_pub_ = node_->create_publisher<geometry_msgs::msg::Twist>("/output_vel", 100);
 }
 
 void
-Patrol::halt()
+IsRaceFinished::halt()
 {
-  std::cout << "Patrol halt" << std::endl;
+  std::cout << "Is race finished halt" << std::endl;
 }
 
 BT::NodeStatus
-Patrol::tick()
+IsRaceFinished::tick()
 {
-  if (status() == BT::NodeStatus::IDLE) {
-    start_time_ = node_->now();
-  }
+  int ind;
+  config().blackboard->get("index", ind);
 
-  geometry_msgs::msg::Twist vel_msgs;
-  vel_msgs.angular.z = 0.5;
-  vel_pub_->publish(vel_msgs);
+  std::vector<std::string> wp_ids;
+  node_->get_parameter("waypoints", wp_ids);
 
-  auto elapsed = node_->now() - start_time_;
+  std::cout << "Index:" << ind << " ,WP size: " << wp_ids.size() << std::endl;
 
-  if (elapsed < 15s) {
-    return BT::NodeStatus::RUNNING;
-  } else {
+  if (ind == wp_ids.size()) {
     return BT::NodeStatus::SUCCESS;
   }
+  return BT::NodeStatus::FAILURE;
 }
 
 }  // namespace bt_behavior
@@ -69,5 +65,5 @@ Patrol::tick()
 #include "behaviortree_cpp_v3/bt_factory.h"
 BT_REGISTER_NODES(factory)
 {
-  factory.registerNodeType<bt_behavior::Patrol>("Patrol");
+  factory.registerNodeType<bt_behavior::IsRaceFinished>("IsRaceFinished");
 }

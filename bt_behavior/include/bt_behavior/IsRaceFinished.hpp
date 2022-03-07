@@ -12,25 +12,28 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef BT_BEHAVIOR__PATROL_HPP_
-#define BT_BEHAVIOR__PATROL_HPP_
+#ifndef BT_BEHAVIOR__ISRACEFINISHED_HPP_
+#define BT_BEHAVIOR__ISRACEFINISHED_HPP_
+
 
 #include <string>
+#include <vector>
 
 #include "behaviortree_cpp_v3/behavior_tree.h"
 #include "behaviortree_cpp_v3/bt_factory.h"
 
 #include "geometry_msgs/msg/twist.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
 
 #include "rclcpp/rclcpp.hpp"
 
 namespace bt_behavior
 {
 
-class Patrol : public BT::ActionNodeBase
+class IsRaceFinished : public BT::ActionNodeBase
 {
 public:
-  explicit Patrol(
+  explicit IsRaceFinished(
     const std::string & xml_tag_name,
     const BT::NodeConfiguration & conf);
 
@@ -39,15 +42,13 @@ public:
 
   static BT::PortsList providedPorts()
   {
-    return BT::PortsList({});
+    return {};
   }
 
 private:
   rclcpp::Node::SharedPtr node_;
-  rclcpp::Time start_time_;
-  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr vel_pub_;
 };
 
 }  // namespace bt_behavior
 
-#endif  // BT_BEHAVIOR__PATROL_HPP_
+#endif  // BT_BEHAVIOR__ISRACEFINISHED_HPP_

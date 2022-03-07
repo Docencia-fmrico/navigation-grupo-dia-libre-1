@@ -14,6 +14,7 @@ find_package(behaviortree_cpp_v3 REQUIRED)
 find_package(action_msgs REQUIRED)
 find_package(lifecycle_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(kobuki_ros_interfaces REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(ament_index_cpp REQUIRED)
 
@@ -36,16 +37,22 @@ set(dependencies
     lifecycle_msgs
     geometry_msgs
     nav2_msgs
+
+    nav_msgs
+
     ament_index_cpp
+    kobuki_ros_interfaces
 )
 
 include_directories(include ${ZMQ_INCLUDE_DIRS})
 
-add_library(br2_patrol_bt_node SHARED src/bt_behavior/Patrol.cpp)
+add_library(br2_irf_bt_node SHARED src/bt_behavior/IsRaceFinished.cpp)
+add_library(br2_gnw_bt_node SHARED src/bt_behavior/GetNextWaypoint.cpp)
 add_library(br2_move_bt_node SHARED src/bt_behavior/Move.cpp)
 list(APPEND plugin_libs
-  br2_patrol_bt_node
+  br2_gnw_bt_node
   br2_move_bt_node
+  br2_irf_bt_node
 )
 
 foreach(bt_plugin ${plugin_libs})
@@ -53,13 +60,13 @@ foreach(bt_plugin ${plugin_libs})
   target_compile_definitions(${bt_plugin} PRIVATE BT_PLUGIN_EXPORT)
 endforeach()
 
-add_executable(patrolling_main src/patrolling_main.cpp)
-ament_target_dependencies(patrolling_main ${dependencies})
-target_link_libraries(patrolling_main ${ZMQ_LIBRARIES})
+add_executable(nav_wp src/nav_wp.cpp)
+ament_target_dependencies(nav_wp ${dependencies})
+target_link_libraries(nav_wp ${ZMQ_LIBRARIES})
 
 install(TARGETS
   ${plugin_libs}
-  patrolling_main
+  nav_wp
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib/${PROJECT_NAME}

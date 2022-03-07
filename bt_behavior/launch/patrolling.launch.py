@@ -22,11 +22,11 @@ def generate_launch_description():
         package='bt_behavior',
         executable='patrolling_main',
         parameters=[{
-          'use_sim_time': True
+          'use_sim_time': False
         }],
         remappings=[
-          ('input_scan', '/scan_raw'),
-          ('output_vel', '/nav_vel')
+          ('input_scan', '/scan_filtered'),
+          ('output_vel', '/commands/velocity')
         ],
         output='screen'
     )
