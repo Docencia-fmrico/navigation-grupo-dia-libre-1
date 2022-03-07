@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000521] (bt_behavior) JobQueued: {'identifier': 'bt_behavior', 'dependencies': OrderedDict()}
+[0.001921] (kobuki_navigation) JobQueued: {'identifier': 'kobuki_navigation', 'dependencies': OrderedDict()}
+[0.002016] (bt_behavior) JobStarted: {'identifier': 'bt_behavior'}
+[0.019034] (kobuki_navigation) JobStarted: {'identifier': 'kobuki_navigation'}
+[0.040328] (bt_behavior) JobProgress: {'identifier': 'bt_behavior', 'progress': 'cmake'}
+[0.046869] (bt_behavior) JobProgress: {'identifier': 'bt_behavior', 'progress': 'build'}
+[0.048109] (bt_behavior) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior', '--', '-j8', '-l8'], 'cwd': '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'josetost'), ('SSH_AGENT_PID', '101560'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alumnos/josetost'), ('OLDPWD', '/home/alumnos/josetost/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '101376'), ('GOROOT', '/usr/lib/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/9374/bus'), ('MESG', 'y'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alumnos/josetost/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'josetost'), ('JOURNAL_STREAM', '8:438354'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'josetost'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/go/bin:/opt/puppetlabs/bin/:./'), ('SESSION_MANAGER', 'local/f-l3210-pc24:@/tmp/.ICE-unix/101600,unix/f-l3210-pc24:/tmp/.ICE-unix/101600'), ('INVOCATION_ID', 'efc7516a5ce74a559c7c41caa41e7e04'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a0758d9_5180_400d_b53e_98a4498e02ac'), ('XDG_RUNTIME_DIR', '/run/user/9374'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/9374/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/9374/keyring/ssh'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://f-l3202-pc24:11332/'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/9374/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('EDITOR', '/usr/bin/vim'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.060039] (kobuki_navigation) JobProgress: {'identifier': 'kobuki_navigation', 'progress': 'cmake'}
+[0.066245] (kobuki_navigation) JobProgress: {'identifier': 'kobuki_navigation', 'progress': 'build'}
+[0.066575] (kobuki_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation', '--', '-j8', '-l8'], 'cwd': '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'josetost'), ('SSH_AGENT_PID', '101560'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alumnos/josetost'), ('OLDPWD', '/home/alumnos/josetost/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '101376'), ('GOROOT', '/usr/lib/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/9374/bus'), ('MESG', 'y'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alumnos/josetost/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'josetost'), ('JOURNAL_STREAM', '8:438354'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'josetost'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/go/bin:/opt/puppetlabs/bin/:./'), ('SESSION_MANAGER', 'local/f-l3210-pc24:@/tmp/.ICE-unix/101600,unix/f-l3210-pc24:/tmp/.ICE-unix/101600'), ('INVOCATION_ID', 'efc7516a5ce74a559c7c41caa41e7e04'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a0758d9_5180_400d_b53e_98a4498e02ac'), ('XDG_RUNTIME_DIR', '/run/user/9374'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/9374/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/9374/keyring/ssh'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://f-l3202-pc24:11332/'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/9374/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('EDITOR', '/usr/bin/vim'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098891] (-) TimerEvent: {}
+[0.114820] (bt_behavior) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.137572] (kobuki_navigation) CommandEnded: {'returncode': 0}
+[0.144353] (bt_behavior) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.164782] (kobuki_navigation) JobProgress: {'identifier': 'kobuki_navigation', 'progress': 'install'}
+[0.177634] (kobuki_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation'], 'cwd': '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'josetost'), ('SSH_AGENT_PID', '101560'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alumnos/josetost'), ('OLDPWD', '/home/alumnos/josetost/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '101376'), ('GOROOT', '/usr/lib/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/9374/bus'), ('MESG', 'y'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alumnos/josetost/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'josetost'), ('JOURNAL_STREAM', '8:438354'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'josetost'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/go/bin:/opt/puppetlabs/bin/:./'), ('SESSION_MANAGER', 'local/f-l3210-pc24:@/tmp/.ICE-unix/101600,unix/f-l3210-pc24:/tmp/.ICE-unix/101600'), ('INVOCATION_ID', 'efc7516a5ce74a559c7c41caa41e7e04'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a0758d9_5180_400d_b53e_98a4498e02ac'), ('XDG_RUNTIME_DIR', '/run/user/9374'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/9374/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/9374/keyring/ssh'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://f-l3202-pc24:11332/'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/9374/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('EDITOR', '/usr/bin/vim'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.188722] (kobuki_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.191688] (kobuki_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.197928] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/kobuki_navigation.launch.py\n'}
+[0.198930] (-) TimerEvent: {}
+[0.199345] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/navigation_launch.py\n'}
+[0.202296] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/kobuki_nav_params.yaml\n'}
+[0.203672] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/mapper_params_online_async.yaml\n'}
+[0.207390] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.pgm\n'}
+[0.209078] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.yaml\n'}
+[0.210534] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.pgm\n'}
+[0.211948] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.yaml\n'}
+[0.213421] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.pgm\n'}
+[0.214868] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.yaml\n'}
+[0.217202] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/package_run_dependencies/kobuki_navigation\n'}
+[0.219090] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/parent_prefix_path/kobuki_navigation\n'}
+[0.220824] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.sh\n'}
+[0.222630] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.dsv\n'}
+[0.224269] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.sh\n'}
+[0.226258] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.dsv\n'}
+[0.228292] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.bash\n'}
+[0.230128] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.sh\n'}
+[0.231840] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.zsh\n'}
+[0.233788] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.dsv\n'}
+[0.235571] (kobuki_navigation) StdoutLine: {'line': b'-- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.dsv\n'}
+[0.261167] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/packages/kobuki_navigation\n'}
+[0.263363] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig.cmake\n'}
+[0.264948] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig-version.cmake\n'}
+[0.266568] (kobuki_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.xml\n'}
+[0.270204] (kobuki_navigation) CommandEnded: {'returncode': 0}
+[0.299046] (-) TimerEvent: {}
+[0.382656] (kobuki_navigation) JobEnded: {'identifier': 'kobuki_navigation', 'rc': 0}
+[0.399120] (-) TimerEvent: {}
+[0.499357] (-) TimerEvent: {}
+[0.532161] (bt_behavior) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.575119] (bt_behavior) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.599467] (-) TimerEvent: {}
+[0.630700] (bt_behavior) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.635530] (bt_behavior) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.699621] (-) TimerEvent: {}
+[0.800064] (-) TimerEvent: {}
+[0.848047] (bt_behavior) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900165] (-) TimerEvent: {}
+[0.913720] (bt_behavior) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.915595] (bt_behavior) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000276] (-) TimerEvent: {}
+[1.100622] (-) TimerEvent: {}
+[1.107232] (bt_behavior) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[1.143634] (bt_behavior) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[1.200724] (-) TimerEvent: {}
+[1.241730] (bt_behavior) StdoutLine: {'line': b'-- Found behaviortree_cpp_v3: 3.6.0 (/opt/ros/foxy/share/behaviortree_cpp_v3/cmake)\n'}
+[1.244088] (bt_behavior) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.287866] (bt_behavior) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[1.300795] (-) TimerEvent: {}
+[1.401109] (-) TimerEvent: {}
+[1.501460] (-) TimerEvent: {}
+[1.601850] (-) TimerEvent: {}
+[1.685597] (bt_behavior) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)\n'}
+[1.690287] (bt_behavior) StdoutLine: {'line': b'-- ZeroMQ found.\n'}
+[1.701915] (-) TimerEvent: {}
+[1.715035] (bt_behavior) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.801419] (bt_behavior) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.801983] (-) TimerEvent: {}
+[1.890393] (bt_behavior) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.902141] (-) TimerEvent: {}
+[1.929147] (bt_behavior) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.930065] (bt_behavior) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include\n'}
+[1.930228] (bt_behavior) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.953284] (bt_behavior) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.953478] (bt_behavior) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.956703] (bt_behavior) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.962440] (bt_behavior) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.965456] (bt_behavior) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.987525] (bt_behavior) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.987679] (bt_behavior) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.990670] (bt_behavior) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.002216] (-) TimerEvent: {}
+[2.031652] (bt_behavior) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.102347] (-) TimerEvent: {}
+[2.202813] (-) TimerEvent: {}
+[2.303155] (-) TimerEvent: {}
+[2.403473] (-) TimerEvent: {}
+[2.462859] (bt_behavior) StdoutLine: {'line': b'-- Generating done\n'}
+[2.503577] (-) TimerEvent: {}
+[2.603953] (-) TimerEvent: {}
+[2.604801] (bt_behavior) StdoutLine: {'line': b'-- Build files have been written to: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior\n'}
+[2.681630] (bt_behavior) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target br2_move_bt_node\x1b[0m\n'}
+[2.704091] (-) TimerEvent: {}
+[2.704737] (bt_behavior) StdoutLine: {'line': b'[ 28%] Built target gtest_main\n'}
+[2.704998] (bt_behavior) StdoutLine: {'line': b'[ 28%] Built target gtest\n'}
+[2.724219] (bt_behavior) StdoutLine: {'line': b'[ 71%] Built target br2_irf_bt_node\n'}
+[2.724494] (bt_behavior) StdoutLine: {'line': b'[ 71%] Built target nav_wp\n'}
+[2.727536] (bt_behavior) StdoutLine: {'line': b'[ 71%] Built target br2_gnw_bt_node\n'}
+[2.770639] (bt_behavior) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/bt_behavior/Move.cpp.o\x1b[0m\n'}
+[2.775152] (bt_behavior) StdoutLine: {'line': b'[ 85%] Built target bt_action_test\n'}
+[2.804203] (-) TimerEvent: {}
+[2.904573] (-) TimerEvent: {}
+[3.004932] (-) TimerEvent: {}
+[3.105299] (-) TimerEvent: {}
+[3.205675] (-) TimerEvent: {}
+[3.306047] (-) TimerEvent: {}
+[3.406412] (-) TimerEvent: {}
+[3.506771] (-) TimerEvent: {}
+[3.607139] (-) TimerEvent: {}
+[3.707503] (-) TimerEvent: {}
+[3.807864] (-) TimerEvent: {}
+[3.908233] (-) TimerEvent: {}
+[4.008596] (-) TimerEvent: {}
+[4.109000] (-) TimerEvent: {}
+[4.209349] (-) TimerEvent: {}
+[4.309736] (-) TimerEvent: {}
+[4.410124] (-) TimerEvent: {}
+[4.510495] (-) TimerEvent: {}
+[4.610874] (-) TimerEvent: {}
+[4.711246] (-) TimerEvent: {}
+[4.811631] (-) TimerEvent: {}
+[4.912011] (-) TimerEvent: {}
+[5.012399] (-) TimerEvent: {}
+[5.112785] (-) TimerEvent: {}
+[5.193108] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus bt_behavior::Move::on_success()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.193376] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:60:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksuccess_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksuccess_node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.194098] (bt_behavior) StderrLine: {'line': b'   60 |   \x1b[01;31m\x1b[Ksuccess_pub\x1b[m\x1b[K->publish(beep);\n'}
+[5.194222] (bt_behavior) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.194321] (bt_behavior) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ksuccess_node\x1b[m\x1b[K\n'}
+[5.194417] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:60:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbeep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.194519] (bt_behavior) StderrLine: {'line': b'   60 |   success_pub->publish(\x1b[01;31m\x1b[Kbeep\x1b[m\x1b[K);\n'}
+[5.194648] (bt_behavior) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.196907] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus bt_behavior::Move::on_aborted()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.197265] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:76:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfail_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.197394] (bt_behavior) StderrLine: {'line': b'   76 |   \x1b[01;31m\x1b[Kfail_pub\x1b[m\x1b[K->publish(beep);\n'}
+[5.197516] (bt_behavior) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.198286] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:76:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbeep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.198394] (bt_behavior) StderrLine: {'line': b'   76 |   fail_pub->publish(\x1b[01;31m\x1b[Kbeep\x1b[m\x1b[K);\n'}
+[5.198510] (bt_behavior) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.200945] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus bt_behavior::Move::on_cancelled()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.201110] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:92:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcancel_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.201220] (bt_behavior) StderrLine: {'line': b'   92 |   \x1b[01;31m\x1b[Kcancel_pub\x1b[m\x1b[K->publish(beep);\n'}
+[5.201349] (bt_behavior) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.202022] (bt_behavior) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:92:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbeep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.202124] (bt_behavior) StderrLine: {'line': b'   92 |   cancel_pub->publish(\x1b[01;31m\x1b[Kbeep\x1b[m\x1b[K);\n'}
+[5.202236] (bt_behavior) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.212915] (-) TimerEvent: {}
+[5.313256] (-) TimerEvent: {}
+[5.413626] (-) TimerEvent: {}
+[5.513998] (-) TimerEvent: {}
+[5.614368] (-) TimerEvent: {}
+[5.714738] (-) TimerEvent: {}
+[5.815103] (-) TimerEvent: {}
+[5.915468] (-) TimerEvent: {}
+[6.015822] (-) TimerEvent: {}
+[6.116215] (-) TimerEvent: {}
+[6.216620] (-) TimerEvent: {}
+[6.278779] (bt_behavior) StderrLine: {'line': b'make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/bt_behavior/Move.cpp.o] Error 1\n'}
+[6.281135] (bt_behavior) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/br2_move_bt_node.dir/all] Error 2\n'}
+[6.281787] (bt_behavior) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.285810] (bt_behavior) CommandEnded: {'returncode': 2}
+[6.316868] (-) TimerEvent: {}
+[6.383368] (bt_behavior) JobEnded: {'identifier': 'bt_behavior', 'rc': 2}
+[6.394806] (-) EventReactorShutdown: {}

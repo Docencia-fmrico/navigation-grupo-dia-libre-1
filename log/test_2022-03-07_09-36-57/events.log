@@ -1,0 +1,458 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (bt_behavior) JobQueued: {'identifier': 'bt_behavior', 'dependencies': OrderedDict([('bt_behavior', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior')])}
+[0.000432] (kobuki_navigation) JobQueued: {'identifier': 'kobuki_navigation', 'dependencies': OrderedDict([('kobuki_navigation', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation')])}
+[0.001154] (bt_behavior) JobStarted: {'identifier': 'bt_behavior'}
+[0.098849] (-) TimerEvent: {}
+[0.112092] (kobuki_navigation) JobStarted: {'identifier': 'kobuki_navigation'}
+[0.164140] (bt_behavior) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'josetost'), ('SSH_AGENT_PID', '101560'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alumnos/josetost'), ('OLDPWD', '/home/alumnos/josetost/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '101376'), ('GOROOT', '/usr/lib/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/9374/bus'), ('MESG', 'y'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alumnos/josetost/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'josetost'), ('JOURNAL_STREAM', '8:438354'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'josetost'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/go/bin:/opt/puppetlabs/bin/:./'), ('SESSION_MANAGER', 'local/f-l3210-pc24:@/tmp/.ICE-unix/101600,unix/f-l3210-pc24:/tmp/.ICE-unix/101600'), ('INVOCATION_ID', 'efc7516a5ce74a559c7c41caa41e7e04'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a0758d9_5180_400d_b53e_98a4498e02ac'), ('XDG_RUNTIME_DIR', '/run/user/9374'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/9374/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/9374/keyring/ssh'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://f-l3202-pc24:11332/'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/9374/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('EDITOR', '/usr/bin/vim'), ('CMAKE_PREFIX_PATH', '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior')]), 'shell': False}
+[0.173962] (kobuki_navigation) JobEnded: {'identifier': 'kobuki_navigation', 'rc': 0}
+[0.180486] (bt_behavior) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini\n'}
+[0.180716] (bt_behavior) StdoutLine: {'line': b'Parse Config file:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini\n'}
+[0.181693] (bt_behavior) StdoutLine: {'line': b'   Site: f-l3210-pc24\n'}
+[0.182473] (bt_behavior) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.182621] (bt_behavior) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.183368] (bt_behavior) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.183987] (bt_behavior) StdoutLine: {'line': b'Create new tag: 20220307-0836 - Experimental\n'}
+[0.184223] (bt_behavior) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini\n'}
+[0.185026] (bt_behavior) StdoutLine: {'line': b'Parse Config file:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini\n'}
+[0.185746] (bt_behavior) StdoutLine: {'line': b'Test project /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior\n'}
+[0.186401] (bt_behavior) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.187080] (bt_behavior) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.187319] (bt_behavior) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.187980] (bt_behavior) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.188785] (bt_behavior) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.189521] (bt_behavior) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.190308] (bt_behavior) StdoutLine: {'line': b'test 1\n'}
+[0.190481] (bt_behavior) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.190611] (bt_behavior) StdoutLine: {'line': b'\n'}
+[0.191108] (bt_behavior) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml"\n'}
+[0.191240] (bt_behavior) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.198961] (-) TimerEvent: {}
+[0.262301] (bt_behavior) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[0.262625] (bt_behavior) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml\n'}
+[0.299060] (-) TimerEvent: {}
+[0.399396] (-) TimerEvent: {}
+[0.499826] (-) TimerEvent: {}
+[0.600186] (-) TimerEvent: {}
+[0.684635] (bt_behavior) StdoutLine: {'line': b'1: No problems found, checked 12 files\n'}
+[0.700315] (-) TimerEvent: {}
+[0.700794] (bt_behavior) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.702052] (bt_behavior) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml'\n"}
+[0.715006] (bt_behavior) StdoutLine: {'line': b'1/9 Test #1: copyright ........................   Passed    0.53 sec\n'}
+[0.717600] (bt_behavior) StdoutLine: {'line': b'test 2\n'}
+[0.717932] (bt_behavior) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.718427] (bt_behavior) StdoutLine: {'line': b'\n'}
+[0.718561] (bt_behavior) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml" "--include_dirs" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include"\n'}
+[0.719195] (bt_behavior) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.794581] (bt_behavior) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[0.794785] (bt_behavior) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml --include_dirs /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include\n'}
+[0.800401] (-) TimerEvent: {}
+[0.900716] (-) TimerEvent: {}
+[1.001032] (-) TimerEvent: {}
+[1.101323] (-) TimerEvent: {}
+[1.185327] (bt_behavior) StdoutLine: {'line': b'2: No problems found\n'}
+[1.201462] (-) TimerEvent: {}
+[1.202087] (bt_behavior) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.203240] (bt_behavior) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml'\n"}
+[1.215019] (bt_behavior) StdoutLine: {'line': b'2/9 Test #2: cppcheck .........................   Passed    0.50 sec\n'}
+[1.217423] (bt_behavior) StdoutLine: {'line': b'test 3\n'}
+[1.217824] (bt_behavior) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[1.217971] (bt_behavior) StdoutLine: {'line': b'\n'}
+[1.218683] (bt_behavior) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml"\n'}
+[1.218837] (bt_behavior) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[1.294716] (bt_behavior) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[1.294916] (bt_behavior) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml\n'}
+[1.301545] (-) TimerEvent: {}
+[1.401875] (-) TimerEvent: {}
+[1.502257] (-) TimerEvent: {}
+[1.602603] (-) TimerEvent: {}
+[1.703005] (-) TimerEvent: {}
+[1.803383] (-) TimerEvent: {}
+[1.903758] (-) TimerEvent: {}
+[2.004103] (-) TimerEvent: {}
+[2.054351] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/GetNextWaypoint.hpp:25:  Found C++ system header after other header. Should be: GetNextWaypoint.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[2.054552] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/GetNextWaypoint.hpp:55:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]\n'}
+[2.054658] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/IsRaceFinished.hpp:26:  Found C++ system header after other header. Should be: IsRaceFinished.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[2.054770] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:32:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.054880] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:49:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.055082] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:58:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.055591] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:63:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.055705] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:42:  Add #include <vector> for vector<>  [build/include_what_you_use] [4]\n'}
+[2.055809] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:94:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]\n'}
+[2.055912] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:27:  "rclcpp/rclcpp.hpp" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:24  [build/include] [4]\n'}
+[2.056018] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:29:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[2.056120] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:29:  Found C++ system header after other header. Should be: GetNextWaypoint.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[2.056225] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:31:  "nav_msgs/msg/occupancy_grid.hpp" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:25  [build/include] [4]\n'}
+[2.056326] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:32:  "std_msgs/msg/string.hpp" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:28  [build/include] [4]\n'}
+[2.056426] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:33:  "memory" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:29  [build/include] [4]\n'}
+[2.056525] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:36:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.056633] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:42:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.056732] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:60:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]\n'}
+[2.056834] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:61:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.056931] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:80:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]\n'}
+[2.057030] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:116:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[2.057129] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:129:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[2.057227] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:133:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[2.057325] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:122:  Add #include <vector> for vector<>  [build/include_what_you_use] [4]\n'}
+[2.057422] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/IsRaceFinished.cpp:48:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]\n'}
+[2.057520] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/IsRaceFinished.cpp:52:  Add #include <vector> for vector<>  [build/include_what_you_use] [4]\n'}
+[2.057618] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:55:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[2.057773] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:57:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.057932] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:58:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.058092] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:60:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.058272] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[2.058447] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.058554] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:72:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[2.058696] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:73:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.058796] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:74:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.058899] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:76:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.058998] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[2.059104] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.059201] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:88:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[2.059300] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:89:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.086260] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:90:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.086823] (bt_behavior) StdoutLine: {'line': b'3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:92:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[2.087182] (bt_behavior) StdoutLine: {'line': b"3: Category 'build/include' errors found: 4\n"}
+[2.087288] (bt_behavior) StdoutLine: {'line': b"3: Category 'build/include_order' errors found: 3\n"}
+[2.087408] (bt_behavior) StdoutLine: {'line': b"3: Category 'build/include_what_you_use' errors found: 3\n"}
+[2.088084] (bt_behavior) StdoutLine: {'line': b"3: Category 'whitespace/blank_line' errors found: 4\n"}
+[2.088204] (bt_behavior) StdoutLine: {'line': b"3: Category 'whitespace/comments' errors found: 18\n"}
+[2.089120] (bt_behavior) StdoutLine: {'line': b"3: Category 'whitespace/end_of_line' errors found: 5\n"}
+[2.089240] (bt_behavior) StdoutLine: {'line': b"3: Category 'whitespace/ending_newline' errors found: 1\n"}
+[2.090249] (bt_behavior) StdoutLine: {'line': b"3: Category 'whitespace/line_length' errors found: 4\n"}
+[2.090463] (bt_behavior) StdoutLine: {'line': b'3: Total errors found: 42\n'}
+[2.090651] (bt_behavior) StdoutLine: {'line': b"3: Using '--root=..' argument\n"}
+[2.091385] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.092254] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/tests/bt_action_test.cpp\n'}
+[2.092431] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.093116] (bt_behavior) StdoutLine: {'line': b"3: Using '--root=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include' argument\n"}
+[2.093286] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.094049] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/GetNextWaypoint.hpp\n'}
+[2.094214] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.094391] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/IsRaceFinished.hpp\n'}
+[2.095149] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.095335] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/Move.hpp\n'}
+[2.096042] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.096205] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTActionNode.hpp\n'}
+[2.096983] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.097137] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp\n'}
+[2.097847] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.097960] (bt_behavior) StdoutLine: {'line': b"3: Using '--root=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src' argument\n"}
+[2.098083] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.098995] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp\n'}
+[2.099120] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.099946] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp\n'}
+[2.100061] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.100177] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/IsRaceFinished.cpp\n'}
+[2.100876] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.100986] (bt_behavior) StdoutLine: {'line': b'3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp\n'}
+[2.101105] (bt_behavior) StdoutLine: {'line': b'3: \n'}
+[2.101998] (bt_behavior) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[2.103186] (bt_behavior) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml'\n"}
+[2.104176] (-) TimerEvent: {}
+[2.118672] (bt_behavior) StdoutLine: {'line': b'3/9 Test #3: cpplint ..........................***Failed    0.90 sec\n'}
+[2.127460] (bt_behavior) StdoutLine: {'line': b'test 4\n'}
+[2.127951] (bt_behavior) StdoutLine: {'line': b'    Start 4: flake8\n'}
+[2.128107] (bt_behavior) StdoutLine: {'line': b'\n'}
+[2.128913] (bt_behavior) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml"\n'}
+[2.129158] (bt_behavior) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[2.198397] (bt_behavior) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[2.198611] (bt_behavior) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml\n'}
+[2.204281] (-) TimerEvent: {}
+[2.304559] (-) TimerEvent: {}
+[2.404864] (-) TimerEvent: {}
+[2.505166] (-) TimerEvent: {}
+[2.605475] (-) TimerEvent: {}
+[2.705833] (-) TimerEvent: {}
+[2.806157] (-) TimerEvent: {}
+[2.810535] (bt_behavior) StdoutLine: {'line': b'4: \n'}
+[2.810742] (bt_behavior) StdoutLine: {'line': b'4: 1 files checked\n'}
+[2.810846] (bt_behavior) StdoutLine: {'line': b'4: No problems found\n'}
+[2.810947] (bt_behavior) StdoutLine: {'line': b'4: \n'}
+[2.811045] (bt_behavior) StdoutLine: {'line': b'4: Checked files:\n'}
+[2.811197] (bt_behavior) StdoutLine: {'line': b'4: \n'}
+[2.811301] (bt_behavior) StdoutLine: {'line': b'4: * ./launch/patrolling.launch.py\n'}
+[2.836768] (bt_behavior) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[2.837967] (bt_behavior) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml'\n"}
+[2.849681] (bt_behavior) StdoutLine: {'line': b'4/9 Test #4: flake8 ...........................   Passed    0.72 sec\n'}
+[2.851963] (bt_behavior) StdoutLine: {'line': b'test 5\n'}
+[2.852383] (bt_behavior) StdoutLine: {'line': b'    Start 5: lint_cmake\n'}
+[2.853171] (bt_behavior) StdoutLine: {'line': b'\n'}
+[2.853317] (bt_behavior) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml"\n'}
+[2.854053] (bt_behavior) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[2.906257] (-) TimerEvent: {}
+[2.920895] (bt_behavior) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[2.921097] (bt_behavior) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml\n'}
+[3.006425] (-) TimerEvent: {}
+[3.106897] (-) TimerEvent: {}
+[3.207224] (-) TimerEvent: {}
+[3.289279] (bt_behavior) StdoutLine: {'line': b'5: CMakeLists.txt:40: Line ends in whitespace [whitespace/eol]\n'}
+[3.289497] (bt_behavior) StdoutLine: {'line': b'5: \n'}
+[3.289616] (bt_behavior) StdoutLine: {'line': b'5: \n'}
+[3.289787] (bt_behavior) StdoutLine: {'line': b'5: 1 errors\n'}
+[3.304136] (bt_behavior) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[3.305891] (bt_behavior) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml'\n"}
+[3.307327] (-) TimerEvent: {}
+[3.319147] (bt_behavior) StdoutLine: {'line': b'5/9 Test #5: lint_cmake .......................***Failed    0.47 sec\n'}
+[3.321237] (bt_behavior) StdoutLine: {'line': b'test 6\n'}
+[3.322292] (bt_behavior) StdoutLine: {'line': b'    Start 6: pep257\n'}
+[3.322533] (bt_behavior) StdoutLine: {'line': b'\n'}
+[3.323244] (bt_behavior) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml"\n'}
+[3.323485] (bt_behavior) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[3.399043] (bt_behavior) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[3.399254] (bt_behavior) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml\n'}
+[3.407461] (-) TimerEvent: {}
+[3.507818] (-) TimerEvent: {}
+[3.608139] (-) TimerEvent: {}
+[3.708505] (-) TimerEvent: {}
+[3.808888] (-) TimerEvent: {}
+[3.820895] (bt_behavior) StdoutLine: {'line': b'6: checking ./launch/patrolling.launch.py\n'}
+[3.821101] (bt_behavior) StdoutLine: {'line': b'6: No problems found\n'}
+[3.837224] (bt_behavior) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[3.838382] (bt_behavior) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml'\n"}
+[3.849372] (bt_behavior) StdoutLine: {'line': b'6/9 Test #6: pep257 ...........................   Passed    0.53 sec\n'}
+[3.851491] (bt_behavior) StdoutLine: {'line': b'test 7\n'}
+[3.852479] (bt_behavior) StdoutLine: {'line': b'    Start 7: uncrustify\n'}
+[3.853453] (bt_behavior) StdoutLine: {'line': b'\n'}
+[3.854246] (bt_behavior) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml"\n'}
+[3.854560] (bt_behavior) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[3.909008] (-) TimerEvent: {}
+[3.926722] (bt_behavior) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[3.927046] (bt_behavior) StdoutLine: {'line': b'7:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml\n'}
+[4.009110] (-) TimerEvent: {}
+[4.109444] (-) TimerEvent: {}
+[4.209784] (-) TimerEvent: {}
+[4.310156] (-) TimerEvent: {}
+[4.345827] (bt_behavior) StdoutLine: {'line': b"7: Code style divergence in file 'include/bt_behavior/Move.hpp':\n"}
+[4.346060] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.346187] (bt_behavior) StdoutLine: {'line': b'7: --- include/bt_behavior/Move.hpp\n'}
+[4.346510] (bt_behavior) StdoutLine: {'line': b'7: +++ include/bt_behavior/Move.hpp.uncrustify\n'}
+[4.346658] (bt_behavior) StdoutLine: {'line': b'7: @@ -30,9 +30,10 @@\n'}
+[4.346771] (bt_behavior) StdoutLine: {'line': b'7: -  enum sounds {\n'}
+[4.346882] (bt_behavior) StdoutLine: {'line': b'7: -    ON            = 0,\n'}
+[4.347078] (bt_behavior) StdoutLine: {'line': b'7: -    OFF           = 1,\n'}
+[4.347535] (bt_behavior) StdoutLine: {'line': b'7: -    RECHARGE      = 2,\n'}
+[4.347935] (bt_behavior) StdoutLine: {'line': b'7: -    BUTTON        = 3,\n'}
+[4.348288] (bt_behavior) StdoutLine: {'line': b'7: -    ERROR         = 4,\n'}
+[4.348401] (bt_behavior) StdoutLine: {'line': b'7: -    CLEANINGSTART = 5,\n'}
+[4.348929] (bt_behavior) StdoutLine: {'line': b'7: -    CLEANINGEND   = 6\n'}
+[4.349038] (bt_behavior) StdoutLine: {'line': b'7: -  };\n'}
+[4.349590] (bt_behavior) StdoutLine: {'line': b'7: +enum sounds\n'}
+[4.349703] (bt_behavior) StdoutLine: {'line': b'7: +{\n'}
+[4.349832] (bt_behavior) StdoutLine: {'line': b'7: +  ON            = 0,\n'}
+[4.350499] (bt_behavior) StdoutLine: {'line': b'7: +  OFF           = 1,\n'}
+[4.350990] (bt_behavior) StdoutLine: {'line': b'7: +  RECHARGE      = 2,\n'}
+[4.351107] (bt_behavior) StdoutLine: {'line': b'7: +  BUTTON        = 3,\n'}
+[4.351566] (bt_behavior) StdoutLine: {'line': b'7: +  ERROR         = 4,\n'}
+[4.351679] (bt_behavior) StdoutLine: {'line': b'7: +  CLEANINGSTART = 5,\n'}
+[4.352213] (bt_behavior) StdoutLine: {'line': b'7: +  CLEANINGEND   = 6\n'}
+[4.352329] (bt_behavior) StdoutLine: {'line': b'7: +};\n'}
+[4.352441] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.352552] (bt_behavior) StdoutLine: {'line': b"7: Code style divergence in file 'src/bt_behavior/GetNextWaypoint.cpp':\n"}
+[4.352669] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.352778] (bt_behavior) StdoutLine: {'line': b'7: --- src/bt_behavior/GetNextWaypoint.cpp\n'}
+[4.352888] (bt_behavior) StdoutLine: {'line': b'7: +++ src/bt_behavior/GetNextWaypoint.cpp.uncrustify\n'}
+[4.353010] (bt_behavior) StdoutLine: {'line': b'7: @@ -29 +29 @@\n'}
+[4.353135] (bt_behavior) StdoutLine: {'line': b'7: -#include <memory> \n'}
+[4.353241] (bt_behavior) StdoutLine: {'line': b'7: +#include <memory>\n'}
+[4.353347] (bt_behavior) StdoutLine: {'line': b'7: @@ -74 +73,0 @@\n'}
+[4.354092] (bt_behavior) StdoutLine: {'line': b'7: -  return;\n'}
+[4.354189] (bt_behavior) StdoutLine: {'line': b'7: @@ -89 +88 @@\n'}
+[4.354286] (bt_behavior) StdoutLine: {'line': b'7: -  unsigned char *costmap_ = new unsigned char[size_x_ * size_y_];\n'}
+[4.354875] (bt_behavior) StdoutLine: {'line': b'7: +  unsigned char * costmap_ = new unsigned char[size_x_ * size_y_];\n'}
+[4.354975] (bt_behavior) StdoutLine: {'line': b'7: @@ -116 +115 @@\n'}
+[4.355071] (bt_behavior) StdoutLine: {'line': b'7: -{    \n'}
+[4.355563] (bt_behavior) StdoutLine: {'line': b'7: +{\n'}
+[4.355660] (bt_behavior) StdoutLine: {'line': b'7: @@ -129 +128,2 @@\n'}
+[4.355756] (bt_behavior) StdoutLine: {'line': b'7: -  std::cerr << "Next waypoint on index " << ind << " is [" << waypoint[0] << "," << waypoint[1] << "]" << std::endl;\n'}
+[4.356287] (bt_behavior) StdoutLine: {'line': b'7: +  std::cerr << "Next waypoint on index " << ind << " is [" << waypoint[0] << "," << waypoint[1] <<\n'}
+[4.356386] (bt_behavior) StdoutLine: {'line': b'7: +    "]" << std::endl;\n'}
+[4.356483] (bt_behavior) StdoutLine: {'line': b'7: @@ -133 +133 @@\n'}
+[4.356579] (bt_behavior) StdoutLine: {'line': b'7: -  \n'}
+[4.357223] (bt_behavior) StdoutLine: {'line': b'7: +\n'}
+[4.357318] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.357414] (bt_behavior) StdoutLine: {'line': b"7: Code style divergence in file 'src/bt_behavior/Move.cpp':\n"}
+[4.358019] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.358176] (bt_behavior) StdoutLine: {'line': b'7: --- src/bt_behavior/Move.cpp\n'}
+[4.358949] (bt_behavior) StdoutLine: {'line': b'7: +++ src/bt_behavior/Move.cpp.uncrustify\n'}
+[4.359057] (bt_behavior) StdoutLine: {'line': b'7: @@ -60 +60 @@\n'}
+[4.359158] (bt_behavior) StdoutLine: {'line': b'7: - //success_pub->publish(beep);\n'}
+[4.359786] (bt_behavior) StdoutLine: {'line': b'7: +  //success_pub->publish(beep);\n'}
+[4.359889] (bt_behavior) StdoutLine: {'line': b'7: @@ -72 +72 @@\n'}
+[4.359986] (bt_behavior) StdoutLine: {'line': b'7: - \n'}
+[4.360085] (bt_behavior) StdoutLine: {'line': b'7: +\n'}
+[4.360745] (bt_behavior) StdoutLine: {'line': b'7: @@ -88 +88 @@\n'}
+[4.360842] (bt_behavior) StdoutLine: {'line': b'7: - \n'}
+[4.361434] (bt_behavior) StdoutLine: {'line': b'7: +\n'}
+[4.361529] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.361625] (bt_behavior) StdoutLine: {'line': b"7: Code style divergence in file 'src/nav_wp.cpp':\n"}
+[4.362178] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.362310] (bt_behavior) StdoutLine: {'line': b'7: --- src/nav_wp.cpp\n'}
+[4.363019] (bt_behavior) StdoutLine: {'line': b'7: +++ src/nav_wp.cpp.uncrustify\n'}
+[4.363153] (bt_behavior) StdoutLine: {'line': b'7: @@ -94 +94 @@\n'}
+[4.363301] (bt_behavior) StdoutLine: {'line': b'7: -// ros2 run pkg node --ros-args --params-file ruta absoluta\n'}
+[4.363857] (bt_behavior) StdoutLine: {'line': b'7: +// ros2 run pkg node --ros-args --params-file ruta absoluta\n'}
+[4.364547] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.364677] (bt_behavior) StdoutLine: {'line': b'7: 4 files with code style divergence\n'}
+[4.365258] (bt_behavior) StdoutLine: {'line': b"7: No code style divergence in file 'include/bt_behavior/GetNextWaypoint.hpp'\n"}
+[4.365389] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.365916] (bt_behavior) StdoutLine: {'line': b"7: No code style divergence in file 'include/bt_behavior/IsRaceFinished.hpp'\n"}
+[4.366051] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.366180] (bt_behavior) StdoutLine: {'line': b"7: No code style divergence in file 'include/bt_behavior/ctrl_support/BTActionNode.hpp'\n"}
+[4.366843] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.366972] (bt_behavior) StdoutLine: {'line': b"7: No code style divergence in file 'include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp'\n"}
+[4.367490] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.367620] (bt_behavior) StdoutLine: {'line': b"7: No code style divergence in file 'src/bt_behavior/IsRaceFinished.cpp'\n"}
+[4.368132] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.368262] (bt_behavior) StdoutLine: {'line': b"7: No code style divergence in file 'tests/bt_action_test.cpp'\n"}
+[4.368826] (bt_behavior) StdoutLine: {'line': b'7: \n'}
+[4.368957] (bt_behavior) StdoutLine: {'line': b'7: -- run_test.py: return code 1\n'}
+[4.369085] (bt_behavior) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml'\n"}
+[4.379783] (bt_behavior) StdoutLine: {'line': b'7/9 Test #7: uncrustify .......................***Failed    0.53 sec\n'}
+[4.382244] (bt_behavior) StdoutLine: {'line': b'test 8\n'}
+[4.382433] (bt_behavior) StdoutLine: {'line': b'    Start 8: xmllint\n'}
+[4.382983] (bt_behavior) StdoutLine: {'line': b'\n'}
+[4.383151] (bt_behavior) StdoutLine: {'line': b'8: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml"\n'}
+[4.386544] (bt_behavior) StdoutLine: {'line': b'8: Test timeout computed to be: 60\n'}
+[4.410234] (-) TimerEvent: {}
+[4.459803] (bt_behavior) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':\n"}
+[4.460005] (bt_behavior) StdoutLine: {'line': b'8:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml\n'}
+[4.510341] (-) TimerEvent: {}
+[4.610661] (-) TimerEvent: {}
+[4.710990] (-) TimerEvent: {}
+[4.811311] (-) TimerEvent: {}
+[4.911706] (-) TimerEvent: {}
+[5.012180] (-) TimerEvent: {}
+[5.094069] (bt_behavior) StdoutLine: {'line': b"8: File 'package.xml' is valid\n"}
+[5.094288] (bt_behavior) StdoutLine: {'line': b'8: \n'}
+[5.094406] (bt_behavior) StdoutLine: {'line': b"8: File 'behavior_tree_xml/behavior.xml' is valid\n"}
+[5.094539] (bt_behavior) StdoutLine: {'line': b'8: \n'}
+[5.094658] (bt_behavior) StdoutLine: {'line': b'8: No problems found\n'}
+[5.109572] (bt_behavior) StdoutLine: {'line': b'8: -- run_test.py: return code 0\n'}
+[5.111076] (bt_behavior) StdoutLine: {'line': b"8: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml'\n"}
+[5.112251] (-) TimerEvent: {}
+[5.122035] (bt_behavior) StdoutLine: {'line': b'8/9 Test #8: xmllint ..........................   Passed    0.74 sec\n'}
+[5.127785] (bt_behavior) StdoutLine: {'line': b'test 9\n'}
+[5.128062] (bt_behavior) StdoutLine: {'line': b'    Start 9: bt_action_test\n'}
+[5.128919] (bt_behavior) StdoutLine: {'line': b'\n'}
+[5.129042] (bt_behavior) StdoutLine: {'line': b'9: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cmake_gtest/bt_action_test.txt" "--command" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests/bt_action_test" "--gtest_output=xml:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml"\n'}
+[5.129908] (bt_behavior) StdoutLine: {'line': b'9: Test timeout computed to be: 60\n'}
+[5.201074] (bt_behavior) StdoutLine: {'line': b"9: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests':\n"}
+[5.201289] (bt_behavior) StdoutLine: {'line': b'9:  - /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests/bt_action_test --gtest_output=xml:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml\n'}
+[5.212377] (-) TimerEvent: {}
+[5.222631] (bt_behavior) StdoutLine: {'line': b'9: [==========] Running 2 tests from 1 test case.\n'}
+[5.222831] (bt_behavior) StdoutLine: {'line': b'9: [----------] Global test environment set-up.\n'}
+[5.222935] (bt_behavior) StdoutLine: {'line': b'9: [----------] 2 tests from bt_action\n'}
+[5.223041] (bt_behavior) StdoutLine: {'line': b'9: [ RUN      ] bt_action.patrol_btn\n'}
+[5.235685] (bt_behavior) StdoutLine: {'line': b'9: unknown file: Failure\n'}
+[5.235925] (bt_behavior) StdoutLine: {'line': b'9: C++ exception with description "Could not load library: libbr2_patrol_bt_node.so: cannot open shared object file: No such file or directory" thrown in the test body.\n'}
+[5.236038] (bt_behavior) StdoutLine: {'line': b'9: [  FAILED  ] bt_action.patrol_btn (13 ms)\n'}
+[5.236359] (bt_behavior) StdoutLine: {'line': b'9: [ RUN      ] bt_action.move_btn\n'}
+[5.246451] (bt_behavior) StdoutLine: {'line': b'9: [INFO] [1646642222.543273525] [move_btn_node]: Waiting for "navigate_to_pose" action server\n'}
+[5.246692] (bt_behavior) StdoutLine: {'line': b'9: [INFO] [1646642222.543395477] [move_btn_node]: "move" BtActionNode initialized\n'}
+[5.248017] (bt_behavior) StdoutLine: {'line': b'9: [INFO] [1646642222.545016144] [move_btn_node]: Waiting for "navigate_to_pose" action server\n'}
+[5.312495] (-) TimerEvent: {}
+[5.412801] (-) TimerEvent: {}
+[5.513188] (-) TimerEvent: {}
+[5.613562] (-) TimerEvent: {}
+[5.713959] (-) TimerEvent: {}
+[5.814288] (-) TimerEvent: {}
+[5.914643] (-) TimerEvent: {}
+[6.014972] (-) TimerEvent: {}
+[6.115276] (-) TimerEvent: {}
+[6.215625] (-) TimerEvent: {}
+[6.315948] (-) TimerEvent: {}
+[6.416303] (-) TimerEvent: {}
+[6.516712] (-) TimerEvent: {}
+[6.617086] (-) TimerEvent: {}
+[6.717431] (-) TimerEvent: {}
+[6.817801] (-) TimerEvent: {}
+[6.918145] (-) TimerEvent: {}
+[7.018454] (-) TimerEvent: {}
+[7.118792] (-) TimerEvent: {}
+[7.219147] (-) TimerEvent: {}
+[7.319481] (-) TimerEvent: {}
+[7.419886] (-) TimerEvent: {}
+[7.520296] (-) TimerEvent: {}
+[7.620662] (-) TimerEvent: {}
+[7.721020] (-) TimerEvent: {}
+[7.821339] (-) TimerEvent: {}
+[7.921674] (-) TimerEvent: {}
+[8.021995] (-) TimerEvent: {}
+[8.122306] (-) TimerEvent: {}
+[8.222632] (-) TimerEvent: {}
+[8.323016] (-) TimerEvent: {}
+[8.423393] (-) TimerEvent: {}
+[8.523728] (-) TimerEvent: {}
+[8.624124] (-) TimerEvent: {}
+[8.724428] (-) TimerEvent: {}
+[8.824745] (-) TimerEvent: {}
+[8.925098] (-) TimerEvent: {}
+[9.025413] (-) TimerEvent: {}
+[9.125764] (-) TimerEvent: {}
+[9.226115] (-) TimerEvent: {}
+[9.326504] (-) TimerEvent: {}
+[9.426888] (-) TimerEvent: {}
+[9.527256] (-) TimerEvent: {}
+[9.627587] (-) TimerEvent: {}
+[9.727903] (-) TimerEvent: {}
+[9.828229] (-) TimerEvent: {}
+[9.928590] (-) TimerEvent: {}
+[10.029017] (-) TimerEvent: {}
+[10.129342] (-) TimerEvent: {}
+[10.229677] (-) TimerEvent: {}
+[10.330103] (-) TimerEvent: {}
+[10.430470] (-) TimerEvent: {}
+[10.530904] (-) TimerEvent: {}
+[10.631283] (-) TimerEvent: {}
+[10.731594] (-) TimerEvent: {}
+[10.831936] (-) TimerEvent: {}
+[10.932262] (-) TimerEvent: {}
+[11.032594] (-) TimerEvent: {}
+[11.132918] (-) TimerEvent: {}
+[11.233256] (-) TimerEvent: {}
+[11.333604] (-) TimerEvent: {}
+[11.433961] (-) TimerEvent: {}
+[11.446806] (bt_behavior) StdoutLine: {'line': b'9: [INFO] [1646642228.743621011] [move_btn_node]: navigation Suceeded\n'}
+[11.534080] (-) TimerEvent: {}
+[11.551055] (bt_behavior) StdoutLine: {'line': b'9: [       OK ] bt_action.move_btn (6315 ms)\n'}
+[11.551400] (bt_behavior) StdoutLine: {'line': b'9: [----------] 2 tests from bt_action (6328 ms total)\n'}
+[11.551561] (bt_behavior) StdoutLine: {'line': b'9: \n'}
+[11.551701] (bt_behavior) StdoutLine: {'line': b'9: [----------] Global test environment tear-down\n'}
+[11.554178] (bt_behavior) StdoutLine: {'line': b'9: [==========] 2 tests from 1 test case ran. (6328 ms total)\n'}
+[11.554913] (bt_behavior) StdoutLine: {'line': b'9: [  PASSED  ] 1 test.\n'}
+[11.555040] (bt_behavior) StdoutLine: {'line': b'9: [  FAILED  ] 1 test, listed below:\n'}
+[11.555602] (bt_behavior) StdoutLine: {'line': b'9: [  FAILED  ] bt_action.patrol_btn\n'}
+[11.555724] (bt_behavior) StdoutLine: {'line': b'9: \n'}
+[11.555844] (bt_behavior) StdoutLine: {'line': b'9:  1 FAILED TEST\n'}
+[11.558128] (bt_behavior) StdoutLine: {'line': b'9: -- run_test.py: return code 1\n'}
+[11.559465] (bt_behavior) StdoutLine: {'line': b"9: -- run_test.py: inject classname prefix into gtest result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml'\n"}
+[11.561867] (bt_behavior) StdoutLine: {'line': b"9: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml'\n"}
+[11.572775] (bt_behavior) StdoutLine: {'line': b'9/9 Test #9: bt_action_test ...................***Failed    6.44 sec\n'}
+[11.578469] (bt_behavior) StdoutLine: {'line': b'\n'}
+[11.578762] (bt_behavior) StdoutLine: {'line': b'56% tests passed\x1b[0;0m, \x1b[0;31m4 tests failed\x1b[0;0m out of 9\n'}
+[11.578932] (bt_behavior) StdoutLine: {'line': b'\n'}
+[11.579077] (bt_behavior) StdoutLine: {'line': b'Label Time Summary:\n'}
+[11.579200] (bt_behavior) StdoutLine: {'line': b'copyright     =   0.53 sec*proc (1 test)\n'}
+[11.579323] (bt_behavior) StdoutLine: {'line': b'cppcheck      =   0.50 sec*proc (1 test)\n'}
+[11.579873] (bt_behavior) StdoutLine: {'line': b'cpplint       =   0.90 sec*proc (1 test)\n'}
+[11.580455] (bt_behavior) StdoutLine: {'line': b'flake8        =   0.72 sec*proc (1 test)\n'}
+[11.580574] (bt_behavior) StdoutLine: {'line': b'gtest         =   6.44 sec*proc (1 test)\n'}
+[11.581130] (bt_behavior) StdoutLine: {'line': b'lint_cmake    =   0.47 sec*proc (1 test)\n'}
+[11.581248] (bt_behavior) StdoutLine: {'line': b'linter        =   4.91 sec*proc (8 tests)\n'}
+[11.581863] (bt_behavior) StdoutLine: {'line': b'pep257        =   0.53 sec*proc (1 test)\n'}
+[11.581982] (bt_behavior) StdoutLine: {'line': b'uncrustify    =   0.53 sec*proc (1 test)\n'}
+[11.582099] (bt_behavior) StdoutLine: {'line': b'xmllint       =   0.74 sec*proc (1 test)\n'}
+[11.582754] (bt_behavior) StdoutLine: {'line': b'\n'}
+[11.582922] (bt_behavior) StdoutLine: {'line': b'Total Test time (real) =  11.39 sec\n'}
+[11.583411] (bt_behavior) StdoutLine: {'line': b'\n'}
+[11.583528] (bt_behavior) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[11.584051] (bt_behavior) StdoutLine: {'line': b'\t\x1b[0;31m  3 - cpplint (Failed)\x1b[0;0m\n'}
+[11.584168] (bt_behavior) StdoutLine: {'line': b'\t\x1b[0;31m  5 - lint_cmake (Failed)\x1b[0;0m\n'}
+[11.584703] (bt_behavior) StdoutLine: {'line': b'\t\x1b[0;31m  7 - uncrustify (Failed)\x1b[0;0m\n'}
+[11.584823] (bt_behavior) StdoutLine: {'line': b'\t\x1b[0;31m  9 - bt_action_test (Failed)\x1b[0;0m\n'}
+[11.609538] (bt_behavior) StderrLine: {'line': b'Errors while running CTest\n'}
+[11.611761] (bt_behavior) CommandEnded: {'returncode': 8}
+[11.612720] (bt_behavior) TestFailure: {'identifier': 'bt_behavior'}
+[11.613170] (bt_behavior) JobEnded: {'identifier': 'bt_behavior', 'rc': 0}
+[11.617693] (-) EventReactorShutdown: {}

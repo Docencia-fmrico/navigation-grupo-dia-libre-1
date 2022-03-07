@@ -14,6 +14,7 @@
 
 #include <string>
 #include <memory>
+#include <vector>
 
 #include "behaviortree_cpp_v3/behavior_tree.h"
 #include "behaviortree_cpp_v3/bt_factory.h"
@@ -29,7 +30,7 @@ int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
 
-  //Cambiar nombre nodo
+  // Cambiar nombre nodo
   auto node = rclcpp::Node::make_shared("nav_wp");
   int index = 0;
 
@@ -46,7 +47,7 @@ int main(int argc, char * argv[])
   BT::BehaviorTreeFactory factory;
   BT::SharedLibrary loader;
 
-  //Cambiar qui y en el cmake el nombre del nodo
+  // Cambiar qui y en el cmake el nombre del nodo
   factory.registerFromPlugin(loader.getOSName("br2_move_bt_node"));
   factory.registerFromPlugin(loader.getOSName("br2_gnw_bt_node"));
   factory.registerFromPlugin(loader.getOSName("br2_irf_bt_node"));
@@ -55,12 +56,12 @@ int main(int argc, char * argv[])
   std::string xml_file = pkgpath + "/behavior_tree_xml/behavior.xml";
 
   auto blackboard = BT::Blackboard::create();
-  //quizas aqui añadir iterador a 0
+  // quizas aqui añadir iterador a 0
   blackboard->set("node", node);
   blackboard->set("index", index);
   BT::Tree tree = factory.createTreeFromFile(xml_file, blackboard);
 
-  //Yo diria de quitar esto
+  // Yo diria de quitar esto
   auto publisher_zmq = std::make_shared<BT::PublisherZMQ>(tree, 10, 2666, 2667);
 
   rclcpp::Rate rate(10);

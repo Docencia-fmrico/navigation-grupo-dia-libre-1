@@ -1,0 +1,144 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found behaviortree_cpp_v3: 3.6.0 (/opt/ros/foxy/share/behaviortree_cpp_v3/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+-- ZeroMQ found.
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior
+[35m[1mScanning dependencies of target br2_move_bt_node[0m
+[ 35%] Built target gtest
+[ 35%] Built target gtest_main
+[ 50%] [32mBuilding CXX object CMakeFiles/br2_irf_bt_node.dir/src/bt_behavior/IsRaceFinished.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav_wp.dir/src/nav_wp.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/br2_gnw_bt_node.dir/src/bt_behavior/GetNextWaypoint.cpp.o[0m
+[35m[1mScanning dependencies of target bt_action_test[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/bt_behavior/Move.cpp.o[0m
+[ 64%] [32mBuilding CXX object tests/CMakeFiles/bt_action_test.dir/bt_action_test.cpp.o[0m
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus bt_behavior::Move::on_success()[m[K’:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:55:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kkobuki_ros_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+   55 |   auto success_pub = success_node->create_publisher<[01;31m[Kkobuki_ros_interfaces[m[K::msg::Sound>("/commands/sound", 10);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                     [32m[Kbuiltin_interfaces[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:55:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   55 |   auto success_pub = success_node->[01;31m[Kcreate_publisher<kobuki_ros_interfaces::msg::Sound>[m[K("/commands/sound", 10);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:55:109:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [16], int)[m[K’
+   55 |   auto success_pub = success_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10[01;31m[K)[m[K;
+      |                                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTActionNode.hpp:22[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/Move.hpp:23[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:20[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:55:109:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |   auto success_pub = success_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10[01;31m[K)[m[K;
+      |                                                                                                             [01;31m[K^[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kkobuki_ros_interfaces[m[K’ is not a class, namespace, or enumeration
+   57 |   [01;31m[Kkobuki_ros_interfaces[m[K::msg::Sound beep;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeep[m[K’ was not declared in this scope
+   58 |   [01;31m[Kbeep[m[K.value = ON;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus bt_behavior::Move::on_aborted()[m[K’:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kkobuki_ros_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+   71 |   auto fail_pub = fail_node->create_publisher<[01;31m[Kkobuki_ros_interfaces[m[K::msg::Sound>("/commands/sound", 10);
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[Kbuiltin_interfaces[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   71 |   auto fail_pub = fail_node->[01;31m[Kcreate_publisher<kobuki_ros_interfaces::msg::Sound>[m[K("/commands/sound", 10);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:103:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [16], int)[m[K’
+   71 |   auto fail_pub = fail_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10[01;31m[K)[m[K;
+      |                                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTActionNode.hpp:22[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/Move.hpp:23[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:20[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:103:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 |   auto fail_pub = fail_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10[01;31m[K)[m[K;
+      |                                                                                                       [01;31m[K^[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kkobuki_ros_interfaces[m[K’ is not a class, namespace, or enumeration
+   73 |   [01;31m[Kkobuki_ros_interfaces[m[K::msg::Sound beep;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeep[m[K’ was not declared in this scope
+   74 |   [01;31m[Kbeep[m[K.value = OFF;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus bt_behavior::Move::on_cancelled()[m[K’:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kkobuki_ros_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+   87 |   auto cancel_pub = cancel_node->create_publisher<[01;31m[Kkobuki_ros_interfaces[m[K::msg::Sound>("/commands/sound", 10);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                   [32m[Kbuiltin_interfaces[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:34:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   87 |   auto cancel_pub = cancel_node->[01;31m[Kcreate_publisher<kobuki_ros_interfaces::msg::Sound>[m[K("/commands/sound", 10);
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:107:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [16], int)[m[K’
+   87 |   auto cancel_pub = cancel_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10[01;31m[K)[m[K;
+      |                                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTActionNode.hpp:22[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/Move.hpp:23[m[K,
+                 from [01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:20[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   87 |   auto cancel_pub = cancel_node->create_publisher<kobuki_ros_interfaces::msg::Sound>("/commands/sound", 10[01;31m[K)[m[K;
+      |                                                                                                           [01;31m[K^[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:89:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kkobuki_ros_interfaces[m[K’ is not a class, namespace, or enumeration
+   89 |   [01;31m[Kkobuki_ros_interfaces[m[K::msg::Sound beep;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:90:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeep[m[K’ was not declared in this scope
+   90 |   [01;31m[Kbeep[m[K.value = CLEANINGEND;
+      |   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/bt_behavior/Move.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/br2_move_bt_node.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+[ 71%] [32m[1mLinking CXX shared library libbr2_irf_bt_node.so[0m
+[ 71%] Built target br2_irf_bt_node
+[ 78%] [32m[1mLinking CXX executable nav_wp[0m
+[ 78%] Built target nav_wp
+[ 85%] [32m[1mLinking CXX shared library libbr2_gnw_bt_node.so[0m
+[ 85%] Built target br2_gnw_bt_node
+[ 92%] [32m[1mLinking CXX executable bt_action_test[0m
+[ 92%] Built target bt_action_test
+make: *** [Makefile:141: all] Error 2

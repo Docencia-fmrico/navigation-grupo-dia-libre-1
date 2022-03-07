@@ -16,14 +16,12 @@
 #define BT_BEHAVIOR__GETNEXTWAYPOINT_HPP_
 
 #include <string>
+#include <vector>
 
 #include "behaviortree_cpp_v3/behavior_tree.h"
 #include "behaviortree_cpp_v3/bt_factory.h"
-
 #include "geometry_msgs/msg/twist.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
-#include <vector>
-
 #include "rclcpp/rclcpp.hpp"
 #include "nav_msgs/msg/occupancy_grid.hpp"
 #include "/opt/ros/foxy/include/nav2_costmap_2d/costmap_2d.hpp"
@@ -34,12 +32,10 @@ namespace bt_behavior
 class GetNextWaypoint : public BT::ActionNodeBase
 {
 public:
-
   explicit GetNextWaypoint(
     const std::string & xml_tag_name,
     const BT::NodeConfiguration & conf);
-
-  void halt();    
+  void halt();
   BT::NodeStatus tick();
 
   static BT::PortsList providedPorts()
@@ -54,7 +50,6 @@ private:
   rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr map_ocuppancy_sub_;
   void map_cb(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
   void Costmap2D(const nav_msgs::msg::OccupancyGrid & map);
-
 };
 
 }  // namespace bt_behavior

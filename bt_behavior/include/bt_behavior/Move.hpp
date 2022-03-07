@@ -27,15 +27,16 @@
 namespace bt_behavior
 {
 
-  enum sounds {
-    ON            = 0,
-    OFF           = 1,
-    RECHARGE      = 2,
-    BUTTON        = 3,
-    ERROR         = 4,
-    CLEANINGSTART = 5,
-    CLEANINGEND   = 6
-  };
+enum sounds
+{
+  ON            = 0,
+  OFF           = 1,
+  RECHARGE      = 2,
+  BUTTON        = 3,
+  ERROR         = 4,
+  CLEANINGSTART = 5,
+  CLEANINGEND   = 6
+};
 
 class Move : public bt_behavior::BtActionNode<nav2_msgs::action::NavigateToPose>
 {

@@ -1,0 +1,31 @@
+[0.067s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation -- -j8 -l8
+[0.131s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation -- -j8 -l8
+[0.164s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation
+[0.174s] -- Install configuration: ""
+[0.184s] -- Execute custom install script
+[0.187s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/kobuki_navigation.launch.py
+[0.188s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/launch/navigation_launch.py
+[0.191s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/kobuki_nav_params.yaml
+[0.192s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/params/mapper_params_online_async.yaml
+[0.195s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.pgm
+[0.197s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/aws_map.yaml
+[0.198s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.pgm
+[0.200s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/competition.yaml
+[0.201s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.pgm
+[0.203s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/maps/home.yaml
+[0.205s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/package_run_dependencies/kobuki_navigation
+[0.208s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/parent_prefix_path/kobuki_navigation
+[0.209s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.sh
+[0.211s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/ament_prefix_path.dsv
+[0.214s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.sh
+[0.215s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/environment/path.dsv
+[0.217s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.bash
+[0.219s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.sh
+[0.221s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.zsh
+[0.222s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/local_setup.dsv
+[0.224s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.dsv
+[0.239s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/ament_index/resource_index/packages/kobuki_navigation
+[0.241s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig.cmake
+[0.242s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/cmake/kobuki_navigationConfig-version.cmake
+[0.244s] -- Up-to-date symlink: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/kobuki_navigation/share/kobuki_navigation/package.xml
+[0.247s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation

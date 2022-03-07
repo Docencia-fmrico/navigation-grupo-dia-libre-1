@@ -37,7 +37,7 @@ set(dependencies
     lifecycle_msgs
     geometry_msgs
     nav2_msgs
-    
+
     nav_msgs
 
     ament_index_cpp

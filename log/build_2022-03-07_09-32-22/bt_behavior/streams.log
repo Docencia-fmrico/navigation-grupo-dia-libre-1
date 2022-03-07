@@ -1,0 +1,44 @@
+[0.058s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior -- -j8 -l8
+[0.152s] [35m[1mScanning dependencies of target br2_move_bt_node[0m
+[0.176s] [ 28%] Built target gtest_main
+[0.179s] [ 35%] Built target gtest
+[0.187s] [ 50%] Built target nav_wp
+[0.187s] [ 50%] Built target br2_irf_bt_node
+[0.191s] [ 71%] Built target br2_gnw_bt_node
+[0.237s] [ 85%] Built target bt_action_test
+[0.252s] [ 92%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/bt_behavior/Move.cpp.o[0m
+[6.289s] [100%] [32m[1mLinking CXX shared library libbr2_move_bt_node.so[0m
+[6.840s] [100%] Built target br2_move_bt_node
+[6.869s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior -- -j8 -l8
+[6.915s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior
+[6.926s] -- Install configuration: "Debug"
+[6.929s] -- Execute custom install script
+[6.935s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib/libbr2_gnw_bt_node.so
+[6.952s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib/libbr2_move_bt_node.so
+[6.967s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib/libbr2_irf_bt_node.so
+[6.985s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib/bt_behavior/nav_wp
+[7.007s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/include//bt_behavior/GetNextWaypoint.hpp
+[7.022s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/include//bt_behavior/IsRaceFinished.hpp
+[7.036s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/include//bt_behavior/Move.hpp
+[7.054s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/include//bt_behavior/ctrl_support/BTActionNode.hpp
+[7.068s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/include//bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp
+[7.087s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/behavior_tree_xml/behavior.xml
+[7.106s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/launch/patrolling.launch.py
+[7.129s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/ament_index/resource_index/package_run_dependencies/bt_behavior
+[7.154s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/ament_index/resource_index/parent_prefix_path/bt_behavior
+[7.182s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/environment/ament_prefix_path.sh
+[7.204s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/environment/ament_prefix_path.dsv
+[7.223s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/environment/path.sh
+[7.240s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/environment/path.dsv
+[7.256s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/local_setup.bash
+[7.271s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/local_setup.sh
+[7.284s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/local_setup.zsh
+[7.298s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/local_setup.dsv
+[7.311s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/package.dsv
+[7.330s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/ament_index/resource_index/packages/bt_behavior
+[7.349s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.363s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.377s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/cmake/bt_behaviorConfig.cmake
+[7.391s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/cmake/bt_behaviorConfig-version.cmake
+[7.405s] -- Symlinking: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/share/bt_behavior/package.xml
+[7.429s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior

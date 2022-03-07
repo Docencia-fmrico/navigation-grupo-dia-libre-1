@@ -1,0 +1,294 @@
+[0.160s] Invoking command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior': AMENT_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior LD_LIBRARY_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.167s] UpdateCTestConfiguration  from :/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.167s] Parse Config file:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.168s]    Site: f-l3210-pc24
+[0.168s]    Build name: (empty)
+[0.174s]  Add coverage exclude regular expressions.
+[0.174s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.175s] Create new tag: 20220307-0841 - Experimental
+[0.175s] UpdateCTestConfiguration  from :/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.176s] Parse Config file:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/CTestConfiguration.ini
+[0.176s] Test project /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior
+[0.176s] Constructing a list of tests
+[0.177s] Done constructing a list of tests
+[0.178s] Updating test list for fixtures
+[0.178s] Added 0 tests to meet fixture requirements
+[0.179s] Checking test dependency graph...
+[0.179s] Checking test dependency graph end
+[0.179s] test 1
+[0.179s]     Start 1: copyright
+[0.180s] 
+[0.180s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml"
+[0.180s] 1: Test timeout computed to be: 60
+[0.258s] 1: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[0.258s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml
+[0.713s] 1: No problems found, checked 12 files
+[0.733s] 1: -- run_test.py: return code 0
+[0.734s] 1: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/copyright.xunit.xml'
+[0.747s] 1/9 Test #1: copyright ........................   Passed    0.57 sec
+[0.750s] test 2
+[0.750s]     Start 2: cppcheck
+[0.751s] 
+[0.751s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml" "--include_dirs" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include"
+[0.751s] 2: Test timeout computed to be: 300
+[0.822s] 2: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[0.822s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml --include_dirs /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include
+[1.235s] 2: No problems found
+[1.255s] 2: -- run_test.py: return code 0
+[1.256s] 2: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cppcheck.xunit.xml'
+[1.269s] 2/9 Test #2: cppcheck .........................   Passed    0.52 sec
+[1.271s] test 3
+[1.272s]     Start 3: cpplint
+[1.272s] 
+[1.273s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml"
+[1.273s] 3: Test timeout computed to be: 120
+[1.342s] 3: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[1.343s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml
+[2.095s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/GetNextWaypoint.hpp:25:  Found C++ system header after other header. Should be: GetNextWaypoint.h, c system, c++ system, other.  [build/include_order] [4]
+[2.095s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/GetNextWaypoint.hpp:55:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]
+[2.096s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/IsRaceFinished.hpp:26:  Found C++ system header after other header. Should be: IsRaceFinished.h, c system, c++ system, other.  [build/include_order] [4]
+[2.096s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:32:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.096s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:49:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.096s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:58:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.096s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:63:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:42:  Add #include <vector> for vector<>  [build/include_what_you_use] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp:94:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:27:  "rclcpp/rclcpp.hpp" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:24  [build/include] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:29:  Found C++ system header after other header. Should be: GetNextWaypoint.h, c system, c++ system, other.  [build/include_order] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:31:  "nav_msgs/msg/occupancy_grid.hpp" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:25  [build/include] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:32:  "std_msgs/msg/string.hpp" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:28  [build/include] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:33:  "memory" already included at /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:29  [build/include] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:36:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.097s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:42:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.098s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:60:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+[2.098s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:61:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.098s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:78:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+[2.098s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:114:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+[2.098s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:127:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[2.098s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:131:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+[2.098s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp:120:  Add #include <vector> for vector<>  [build/include_what_you_use] [4]
+[2.103s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/IsRaceFinished.cpp:48:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+[2.104s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/IsRaceFinished.cpp:52:  Add #include <vector> for vector<>  [build/include_what_you_use] [4]
+[2.105s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:55:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[2.105s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:57:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.105s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:58:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.106s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:60:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.110s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[2.111s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:71:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.111s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:72:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+[2.112s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:73:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.112s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:74:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.113s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:76:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.113s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[2.113s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:87:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.114s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:88:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+[2.114s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:89:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.115s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:90:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.115s] 3: /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp:92:  Should have a space between // and comment  [whitespace/comments] [4]
+[2.116s] 3: Category 'build/include' errors found: 4
+[2.116s] 3: Category 'build/include_order' errors found: 3
+[2.116s] 3: Category 'build/include_what_you_use' errors found: 3
+[2.117s] 3: Category 'whitespace/blank_line' errors found: 4
+[2.117s] 3: Category 'whitespace/comments' errors found: 18
+[2.117s] 3: Category 'whitespace/end_of_line' errors found: 4
+[2.117s] 3: Category 'whitespace/ending_newline' errors found: 1
+[2.117s] 3: Category 'whitespace/line_length' errors found: 4
+[2.117s] 3: Total errors found: 41
+[2.118s] 3: Using '--root=..' argument
+[2.118s] 3: 
+[2.118s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/tests/bt_action_test.cpp
+[2.119s] 3: 
+[2.119s] 3: Using '--root=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include' argument
+[2.120s] 3: 
+[2.120s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/GetNextWaypoint.hpp
+[2.120s] 3: 
+[2.121s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/IsRaceFinished.hpp
+[2.121s] 3: 
+[2.121s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/Move.hpp
+[2.122s] 3: 
+[2.122s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTActionNode.hpp
+[2.122s] 3: 
+[2.123s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp
+[2.123s] 3: 
+[2.123s] 3: Using '--root=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src' argument
+[2.123s] 3: 
+[2.124s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/nav_wp.cpp
+[2.125s] 3: 
+[2.125s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/GetNextWaypoint.cpp
+[2.126s] 3: 
+[2.126s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/IsRaceFinished.cpp
+[2.127s] 3: 
+[2.127s] 3: Done processing /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior/src/bt_behavior/Move.cpp
+[2.127s] 3: 
+[2.128s] 3: -- run_test.py: return code 1
+[2.128s] 3: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/cpplint.xunit.xml'
+[2.132s] 3/9 Test #3: cpplint ..........................***Failed    0.86 sec
+[2.134s] test 4
+[2.135s]     Start 4: flake8
+[2.135s] 
+[2.135s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml"
+[2.135s] 4: Test timeout computed to be: 60
+[2.202s] 4: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[2.202s] 4:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml
+[2.779s] 4: 
+[2.779s] 4: 1 files checked
+[2.779s] 4: No problems found
+[2.779s] 4: 
+[2.780s] 4: Checked files:
+[2.780s] 4: 
+[2.780s] 4: * ./launch/patrolling.launch.py
+[2.808s] 4: -- run_test.py: return code 0
+[2.810s] 4: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/flake8.xunit.xml'
+[2.824s] 4/9 Test #4: flake8 ...........................   Passed    0.69 sec
+[2.827s] test 5
+[2.827s]     Start 5: lint_cmake
+[2.828s] 
+[2.828s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml"
+[2.828s] 5: Test timeout computed to be: 60
+[2.897s] 5: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[2.897s] 5:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml
+[3.247s] 5: CMakeLists.txt:40: Line ends in whitespace [whitespace/eol]
+[3.247s] 5: 
+[3.247s] 5: 
+[3.247s] 5: 1 errors
+[3.259s] 5: -- run_test.py: return code 1
+[3.261s] 5: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/lint_cmake.xunit.xml'
+[3.272s] 5/9 Test #5: lint_cmake .......................***Failed    0.45 sec
+[3.275s] test 6
+[3.275s]     Start 6: pep257
+[3.276s] 
+[3.276s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml"
+[3.276s] 6: Test timeout computed to be: 60
+[3.343s] 6: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[3.343s] 6:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml
+[3.753s] 6: checking ./launch/patrolling.launch.py
+[3.753s] 6: No problems found
+[3.770s] 6: -- run_test.py: return code 0
+[3.775s] 6: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/pep257.xunit.xml'
+[3.785s] 6/9 Test #6: pep257 ...........................   Passed    0.51 sec
+[3.787s] test 7
+[3.788s]     Start 7: uncrustify
+[3.788s] 
+[3.788s] 7: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml"
+[3.788s] 7: Test timeout computed to be: 60
+[3.856s] 7: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[3.856s] 7:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml
+[4.265s] 7: Code style divergence in file 'src/bt_behavior/GetNextWaypoint.cpp':
+[4.266s] 7: 
+[4.266s] 7: --- src/bt_behavior/GetNextWaypoint.cpp
+[4.266s] 7: +++ src/bt_behavior/GetNextWaypoint.cpp.uncrustify
+[4.266s] 7: @@ -73 +73 @@
+[4.266s] 7: -{ return; }
+[4.267s] 7: +{}
+[4.267s] 7: @@ -114 +114 @@
+[4.268s] 7: -{    
+[4.268s] 7: +{
+[4.269s] 7: @@ -127 +127,2 @@
+[4.269s] 7: -  std::cerr << "Next waypoint on index " << ind << " is [" << waypoint[0] << "," << waypoint[1] << "]" << std::endl;
+[4.269s] 7: +  std::cerr << "Next waypoint on index " << ind << " is [" << waypoint[0] << "," << waypoint[1] <<
+[4.270s] 7: +    "]" << std::endl;
+[4.270s] 7: @@ -131 +132 @@
+[4.270s] 7: -  
+[4.271s] 7: +
+[4.271s] 7: 
+[4.271s] 7: Code style divergence in file 'src/bt_behavior/Move.cpp':
+[4.271s] 7: 
+[4.271s] 7: --- src/bt_behavior/Move.cpp
+[4.272s] 7: +++ src/bt_behavior/Move.cpp.uncrustify
+[4.272s] 7: @@ -60 +60 @@
+[4.272s] 7: - //success_pub->publish(beep);
+[4.272s] 7: +  //success_pub->publish(beep);
+[4.273s] 7: @@ -72 +72 @@
+[4.273s] 7: - 
+[4.274s] 7: +
+[4.274s] 7: @@ -88 +88 @@
+[4.274s] 7: - 
+[4.274s] 7: +
+[4.275s] 7: 
+[4.275s] 7: Code style divergence in file 'src/nav_wp.cpp':
+[4.275s] 7: 
+[4.275s] 7: --- src/nav_wp.cpp
+[4.276s] 7: +++ src/nav_wp.cpp.uncrustify
+[4.276s] 7: @@ -94 +94 @@
+[4.276s] 7: -// ros2 run pkg node --ros-args --params-file ruta absoluta
+[4.277s] 7: +// ros2 run pkg node --ros-args --params-file ruta absoluta
+[4.277s] 7: 
+[4.278s] 7: 3 files with code style divergence
+[4.278s] 7: No code style divergence in file 'include/bt_behavior/GetNextWaypoint.hpp'
+[4.278s] 7: 
+[4.278s] 7: No code style divergence in file 'include/bt_behavior/IsRaceFinished.hpp'
+[4.279s] 7: 
+[4.279s] 7: No code style divergence in file 'include/bt_behavior/Move.hpp'
+[4.279s] 7: 
+[4.280s] 7: No code style divergence in file 'include/bt_behavior/ctrl_support/BTActionNode.hpp'
+[4.280s] 7: 
+[4.280s] 7: No code style divergence in file 'include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp'
+[4.280s] 7: 
+[4.281s] 7: No code style divergence in file 'src/bt_behavior/IsRaceFinished.cpp'
+[4.281s] 7: 
+[4.281s] 7: No code style divergence in file 'tests/bt_action_test.cpp'
+[4.281s] 7: 
+[4.282s] 7: -- run_test.py: return code 1
+[4.282s] 7: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/uncrustify.xunit.xml'
+[4.293s] 7/9 Test #7: uncrustify .......................***Failed    0.51 sec
+[4.295s] test 8
+[4.295s]     Start 8: xmllint
+[4.295s] 
+[4.296s] 8: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml"
+[4.296s] 8: Test timeout computed to be: 60
+[4.362s] 8: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/bt_behavior':
+[4.362s] 8:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml
+[4.950s] 8: File 'package.xml' is valid
+[4.951s] 8: 
+[4.951s] 8: File 'behavior_tree_xml/behavior.xml' is valid
+[4.952s] 8: 
+[4.952s] 8: No problems found
+[4.968s] 8: -- run_test.py: return code 0
+[4.969s] 8: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/xmllint.xunit.xml'
+[4.984s] 8/9 Test #8: xmllint ..........................   Passed    0.69 sec
+[4.992s] test 9
+[4.992s]     Start 9: bt_action_test
+[4.993s] 
+[4.993s] 9: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml" "--package-name" "bt_behavior" "--output-file" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cmake_gtest/bt_action_test.txt" "--command" "/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests/bt_action_test" "--gtest_output=xml:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml"
+[4.993s] 9: Test timeout computed to be: 60
+[5.076s] 9: -- run_test.py: invoking following command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests':
+[5.076s] 9:  - /home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/tests/bt_action_test --gtest_output=xml:/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml
+[5.097s] 9: [==========] Running 2 tests from 1 test case.
+[5.097s] 9: [----------] Global test environment set-up.
+[5.097s] 9: [----------] 2 tests from bt_action
+[5.097s] 9: [ RUN      ] bt_action.patrol_btn
+[5.116s] 9: unknown file: Failure
+[5.116s] 9: C++ exception with description "Could not load library: libbr2_patrol_bt_node.so: cannot open shared object file: No such file or directory" thrown in the test body.
+[5.116s] 9: [  FAILED  ] bt_action.patrol_btn (19 ms)
+[5.116s] 9: [ RUN      ] bt_action.move_btn
+[5.126s] 9: [INFO] [1646642506.730949154] [move_btn_node]: Waiting for "navigate_to_pose" action server
+[5.127s] 9: [INFO] [1646642506.731077845] [move_btn_node]: "move" BtActionNode initialized
+[5.128s] 9: [INFO] [1646642506.732549448] [move_btn_node]: Waiting for "navigate_to_pose" action server
+[6.334s] 9: -- run_test.py: return code -11
+[6.336s] 9: -- run_test.py: generate result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml' with failed test
+[6.339s] 9: -- run_test.py: verify result file '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/test_results/bt_behavior/bt_action_test.gtest.xml'
+[6.349s] 9/9 Test #9: bt_action_test ...................***Failed    1.36 sec
+[6.359s] 
+[6.359s] 56% tests passed[0;0m, [0;31m4 tests failed[0;0m out of 9
+[6.359s] 
+[6.359s] Label Time Summary:
+[6.359s] copyright     =   0.57 sec*proc (1 test)
+[6.360s] cppcheck      =   0.52 sec*proc (1 test)
+[6.360s] cpplint       =   0.86 sec*proc (1 test)
+[6.361s] flake8        =   0.69 sec*proc (1 test)
+[6.361s] gtest         =   1.36 sec*proc (1 test)
+[6.361s] lint_cmake    =   0.45 sec*proc (1 test)
+[6.362s] linter        =   4.79 sec*proc (8 tests)
+[6.363s] pep257        =   0.51 sec*proc (1 test)
+[6.363s] uncrustify    =   0.51 sec*proc (1 test)
+[6.363s] xmllint       =   0.69 sec*proc (1 test)
+[6.364s] 
+[6.364s] Total Test time (real) =   6.18 sec
+[6.364s] 
+[6.365s] The following tests FAILED:
+[6.365s] 	[0;31m  3 - cpplint (Failed)[0;0m
+[6.365s] 	[0;31m  5 - lint_cmake (Failed)[0;0m
+[6.366s] 	[0;31m  7 - uncrustify (Failed)[0;0m
+[6.366s] 	[0;31m  9 - bt_action_test (Failed)[0;0m
+[6.413s] Errors while running CTest
+[6.416s] Invoked command in '/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior' returned '8': AMENT_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior LD_LIBRARY_PATH=/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/install/bt_behavior/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,1 @@
+/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/kobuki_navigation/ament_cmake_environment_hooks/local_setup.bash

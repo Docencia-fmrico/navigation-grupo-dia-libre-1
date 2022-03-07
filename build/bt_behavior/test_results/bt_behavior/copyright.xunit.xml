@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="bt_behavior.copyright"
+  tests="12"
+  errors="0"
+  failures="0"
+  time="0.031"
+>
+  <testcase
+    name="cmake/FindZMQ.cmake"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="include/bt_behavior/GetNextWaypoint.hpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="include/bt_behavior/IsRaceFinished.hpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="include/bt_behavior/Move.hpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="include/bt_behavior/ctrl_support/BTActionNode.hpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="launch/patrolling.launch.py"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="src/bt_behavior/GetNextWaypoint.cpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="src/bt_behavior/IsRaceFinished.cpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="src/bt_behavior/Move.cpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="src/nav_wp.cpp"
+    classname="bt_behavior.copyright"/>
+  <testcase
+    name="tests/bt_action_test.cpp"
+    classname="bt_behavior.copyright"/>
+  <system-out>Checked files:
+* cmake/FindZMQ.cmake
+* include/bt_behavior/GetNextWaypoint.hpp
+* include/bt_behavior/IsRaceFinished.hpp
+* include/bt_behavior/Move.hpp
+* include/bt_behavior/ctrl_support/BTActionNode.hpp
+* include/bt_behavior/ctrl_support/BTLifecycleCtrlNode.hpp
+* launch/patrolling.launch.py
+* src/bt_behavior/GetNextWaypoint.cpp
+* src/bt_behavior/IsRaceFinished.cpp
+* src/bt_behavior/Move.cpp
+* src/nav_wp.cpp
+* tests/bt_action_test.cpp</system-out>
+</testsuite>
