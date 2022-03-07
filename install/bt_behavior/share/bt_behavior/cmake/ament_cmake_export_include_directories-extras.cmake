@@ -1,1 +1,0 @@
-/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/build/bt_behavior/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

@@ -1,1 +1,0 @@
-/home/alumnos/josetost/colcon_ws/src/navigation-grupo-dia-libre-1/kobuki_navigation/launch/navigation_launch.py
