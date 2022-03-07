@@ -32,6 +32,9 @@ Para la implementación del Behaviour Tree hemos usado el Sequence como control.
 
 La idea del Behavior Tree es la siguiente
 
+![bt](https://user-images.githubusercontent.com/78978326/157094597-1a286c4f-3bc7-485a-baf6-cd9510f01947.jpeg)
+
+
 
 Sequence:
 
@@ -43,9 +46,15 @@ Sequence:
   
 En cuando al bt_navigator hemos usado el navigate_w_replanning_and_recovery.xml.
 
-Y tras probar varios controller servers nos hemos quedado con el inicial.
+en cuanto a los controllers servers hicimos distintas pruebas para elegir con que controlador trabajariamos:
 
-Con el Pursuit controller sabiamos que tardaba en procesar pero hemos creido que era demasiado y no era eficiente.
+primero probamos la navegación con el controller default, el cual realizaba las rutas de forma correcta y no tardaba demasiado en pensar.
 
-Con el Shim controller directamente no nos iba bien asi que por eso hemos decidido usar el inicial.
+a continuación hicimos varias pruebas con el controlador pursuit el cual parecía que navegaba de manera más rápida y fluida pero tenía un
+inconveniente y es que en muchas situaciones el robot se quedaba mucho rato pensando (por ejemplo cuando alcanzaba un waypoint) esto generaba que a corto medio plazo, el algoritmo fuera más lento y menos eficiente. de esa manera concluimos que para la tarea que habrán que realizar en clase la cuál consiste en alcanzar varios waypoints seguidos, el controlador inicial es el mas adecuado.
+
+después de probar con el controlador pursuit quizimos también evaluar el comportamiento del controlador shim sin embargo como varios de nuestros compañeros no conseguimos hacer que este funcionara correctamente
+
+con todo esto en cuenta decidimos que para la tarea encomendada el controlador que nos ofrecerá un mejor comportamiento era
+ el inicial.
 
